@@ -1,0 +1,19 @@
+[31mCMake Error at CMakeLists.txt:12 (find_package):
+  By not providing "Findelfin_ethercat_driver_plant.cmake" in
+  CMAKE_MODULE_PATH this project has asked CMake to find a package
+  configuration file provided by "elfin_ethercat_driver_plant", but CMake did
+  not find one.
+
+  Could not find a package configuration file provided by
+  "elfin_ethercat_driver_plant" with any of the following names:
+
+    elfin_ethercat_driver_plantConfig.cmake
+    elfin_ethercat_driver_plant-config.cmake
+
+  Add the installation prefix of "elfin_ethercat_driver_plant" to
+  CMAKE_PREFIX_PATH or set "elfin_ethercat_driver_plant_DIR" to a directory
+  containing one of the above files.  If "elfin_ethercat_driver_plant"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+[0m

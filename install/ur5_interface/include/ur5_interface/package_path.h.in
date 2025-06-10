@@ -1,0 +1,13 @@
+#pragma once
+
+#include <cstddef>
+#include <string>
+
+namespace ur5_interface {
+
+/** Gets the path to the package source directory. */
+inline std::string getPath() {
+  return "@PROJECT_SOURCE_DIR@";
+}
+
+}  // namespace ur5_manipulator

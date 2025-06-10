@@ -1,0 +1,41 @@
+[0.019s] Invoking command in '/home/wyd/arm_ws/build/arm_interface': CMAKE_PREFIX_PATH=/home/wyd/OCS2_ROS2/install/ocs2_ros2:/home/wyd/OCS2_ROS2/install/ocs2_robotic_examples:/home/wyd/OCS2_ROS2/install/ocs2_anymal:/home/wyd/OCS2_ROS2/install/ocs2_anymal_loopshaping_mpc:/home/wyd/OCS2_ROS2/install/ocs2_quadruped_loopshaping_interface:/home/wyd/OCS2_ROS2/install/ocs2_anymal_mpc:/home/wyd/OCS2_ROS2/install/ocs2_quadruped_interface:/home/wyd/OCS2_ROS2/install/segmented_planes_terrain_model:/home/wyd/OCS2_ROS2/install/ocs2_sphere_approximation:/home/wyd/OCS2_ROS2/install/ocs2_pinocchio:/home/wyd/OCS2_ROS2/install/ocs2_mobile_manipulator_ros:/home/wyd/OCS2_ROS2/install/ocs2_self_collision_visualization:/home/wyd/OCS2_ROS2/install/ocs2_mobile_manipulator:/home/wyd/OCS2_ROS2/install/ocs2_self_collision:/home/wyd/OCS2_ROS2/install/ocs2_raisim:/home/wyd/OCS2_ROS2/install/ocs2_legged_robot_raisim:/home/wyd/OCS2_ROS2/install/ocs2_legged_robot_ros:/home/wyd/OCS2_ROS2/install/ocs2_legged_robot:/home/wyd/OCS2_ROS2/install/ocs2_centroidal_model:/home/wyd/OCS2_ROS2/install/ocs2_anymal_models:/home/wyd/OCS2_ROS2/install/ocs2_pinocchio_interface:/home/wyd/OCS2_ROS2/install/pinocchio:/home/wyd/OCS2_ROS2/install/ocs2_anymal_commands:/home/wyd/OCS2_ROS2/install/ocs2_switched_model_interface:/home/wyd/OCS2_ROS2/install/ocs2_ballbot_ros:/home/wyd/OCS2_ROS2/install/ocs2_ballbot:/home/wyd/OCS2_ROS2/install/ocs2_sqp:/home/wyd/OCS2_ROS2/install/ocs2_slp:/home/wyd/OCS2_ROS2/install/ocs2_quadrotor_ros:/home/wyd/OCS2_ROS2/install/ocs2_double_integrator_ros:/home/wyd/OCS2_ROS2/install/ocs2_cartpole_ros:/home/wyd/OCS2_ROS2/install/ocs2_ros_interfaces:/home/wyd/OCS2_ROS2/install/ocs2_quadrotor:/home/wyd/OCS2_ROS2/install/ocs2_double_integrator:/home/wyd/OCS2_ROS2/install/ocs2_python_interface:/home/wyd/OCS2_ROS2/install/ocs2_perceptive:/home/wyd/OCS2_ROS2/install/ocs2_cartpole:/home/wyd/OCS2_ROS2/install/ocs2_robotic_tools:/home/wyd/OCS2_ROS2/install/ocs2_raisim_ros:/home/wyd/OCS2_ROS2/install/ocs2_raisim_core:/home/wyd/OCS2_ROS2/install/ocs2_ocs2:/home/wyd/OCS2_ROS2/install/ocs2_ipm:/home/wyd/OCS2_ROS2/install/ocs2_ddp:/home/wyd/OCS2_ROS2/install/hpipm_catkin:/home/wyd/OCS2_ROS2/install/ocs2_qp_solver:/home/wyd/OCS2_ROS2/install/ocs2_mpc:/home/wyd/OCS2_ROS2/install/ocs2_oc:/home/wyd/OCS2_ROS2/install/ocs2_frank_wolfe:/home/wyd/OCS2_ROS2/install/ocs2_core:/home/wyd/OCS2_ROS2/install/ocs2_thirdparty:/home/wyd/OCS2_ROS2/install/ocs2_switched_model_msgs:/home/wyd/OCS2_ROS2/install/ocs2_robotic_assets:/home/wyd/OCS2_ROS2/install/ocs2_msgs:/home/wyd/OCS2_ROS2/install/hpp-fcl:/home/wyd/OCS2_ROS2/install/convex_plane_decomposition_ros:/home/wyd/OCS2_ROS2/install/convex_plane_decomposition:/opt/ros/humble:/home/wyd/OCS2_ROS2/install/grid_map_filters_rsl:/home/wyd/OCS2_ROS2/install/convex_plane_decomposition_msgs:/home/wyd/OCS2_ROS2/install/cgal5_catkin:/home/wyd/OCS2_ROS2/install/blasfeo_catkin:/home/wyd/raisim/install/raisim /usr/bin/cmake /home/wyd/arm_ws/src/moying_arm/arm_interface -DCMAKE_INSTALL_PREFIX=/home/wyd/arm_ws/install/arm_interface
+[0.029s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.102s] -- Found ocs2_core: 0.0.0 (/home/wyd/OCS2_ROS2/install/ocs2_core/share/ocs2_core/cmake)
+[0.292s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[0.362s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[0.362s] -- Found OpenMP: TRUE (found version "4.5")  
+[0.523s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.559s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.564s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.571s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.580s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.593s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.653s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.656s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.747s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.764s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.790s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.798s] -- Found Threads: TRUE  
+[0.876s] -- Found ocs2_ddp: 0.0.0 (/home/wyd/OCS2_ROS2/install/ocs2_ddp/share/ocs2_ddp/cmake)
+[0.887s] -- Found realtime_tools: 2.13.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[0.888s] -- Found ocs2_mobile_manipulator: 0.0.0 (/home/wyd/OCS2_ROS2/install/ocs2_mobile_manipulator/share/ocs2_mobile_manipulator/cmake)
+[0.896s] -- hpp-fcl FOUND. hpp-fcl at /home/wyd/OCS2_ROS2/install/hpp-fcl/lib/libhpp-fcl.so
+[1.089s] -- Default C++ standard: 201703
+[1.089s] -- Minimal C++ standard upgraded to 11
+[1.089s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.092s] -- pinocchio FOUND. pinocchio at /home/wyd/OCS2_ROS2/install/pinocchio/lib/libpinocchio.so
+[1.093s] -- boost_filesystem FOUND. boost_filesystem at /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+[1.094s] -- boost_serialization FOUND. boost_serialization at /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+[1.095s] -- boost_system FOUND. boost_system at /usr/lib/x86_64-linux-gnu/libboost_system.so
+[1.112s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.137s] -- Found ocs2_ros_interfaces: 0.0.0 (/home/wyd/OCS2_ROS2/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/cmake)
+[1.185s] -- Found Boost: /usr/include (found version "1.74.0") found components: system filesystem log_setup log date_time thread regex chrono atomic 
+[1.189s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.194s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[1.195s] -- Checking for module 'pinocchio'
+[1.209s] --   Found pinocchio, version 2.6.21
+[1.274s] -- Checking for module 'hpp-fcl'
+[1.299s] --   Found hpp-fcl, version 2.4.0
+[1.425s] -- Configuring done
+[1.432s] -- Generating done
+[1.434s] -- Build files have been written to: /home/wyd/arm_ws/build/arm_interface

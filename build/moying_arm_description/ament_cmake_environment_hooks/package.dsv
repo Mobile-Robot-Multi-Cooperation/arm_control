@@ -1,0 +1,4 @@
+source;share/moying_arm_description/local_setup.bash
+source;share/moying_arm_description/local_setup.dsv
+source;share/moying_arm_description/local_setup.sh
+source;share/moying_arm_description/local_setup.zsh

@@ -1,0 +1,69 @@
+<robot name="moying_arm_control" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- arm -->
+  <xacro:include filename="$(find elfin_description)/ros2_control/elfin.ros2_control.xacro"/>
+  <!-- <xacro:include filename="$(find robotiq_ft_sensor_description)/urdf/robotiq_fts.ros2_control.xacro"/>
+  <xacro:include filename="$(find robotiq_ft_sensor_description)/urdf/robotiq_fts_zombie.ros2_control.xacro"/> -->
+
+  <xacro:macro name="moying_arm_control" params="mode">
+    <xacro:if value="${mode=='real'}">
+      <ros2_control name="arm_control" type="system">
+        <hardware>
+          <plugin>moying_arm_hardware/ArmHardwareInterface</plugin>
+          <param name="config_path">moying_arm_bringup</param>
+          <param name="config_file">/config/arm_driver.yaml</param>
+        </hardware>
+        <xacro:elfin_joint_transmission prefix="1"/>
+        <xacro:elfin_joint_transmission prefix="2"/>
+        <xacro:elfin_joint_transmission prefix="3"/>
+        <xacro:elfin_joint_transmission prefix="4"/>
+        <xacro:elfin_joint_transmission prefix="5"/>
+        <xacro:elfin_joint_transmission prefix="6"/>
+      </ros2_control>
+      <!-- <xacro:robotiq_fts_ros2_control name="left_arm_" ftdi_id="ttyUSB3" tf_prefix="left_arm_" read_rate='100'/> 
+      <xacro:robotiq_fts_zombie_ros2_control name="right_arm_" ftdi_id="ttyUSB0" tf_prefix="right_arm_" read_rate='100'/>  -->
+  </xacro:if>
+
+  <xacro:if value="${mode=='gazebo'}">
+    <ros2_control name="arm_gazebo_control" type="system">
+      <hardware>
+        <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+      </hardware>
+      <xacro:elfin_joint_gazebo_transmission prefix="1"/>
+      <xacro:elfin_joint_gazebo_transmission prefix="2"/>
+      <xacro:elfin_joint_gazebo_transmission prefix="3"/>
+      <xacro:elfin_joint_gazebo_transmission prefix="4"/>
+      <xacro:elfin_joint_gazebo_transmission prefix="5"/>
+      <xacro:elfin_joint_gazebo_transmission prefix="6"/>
+    </ros2_control>
+  </xacro:if>
+    <!-- <xacro:if value="${mode=='isaac'}">
+      <ros2_control name="isaac_mor" type="system">
+        <hardware>
+          <plugin>topic_based_ros2_control/TopicBasedSystem</plugin>
+          <param name="trigger_joint_command_threshold">-1</param>
+          <param name="joint_commands_topic">/isaac_joint_command</param>
+          <param name="joint_states_topic">/isaac_joint_states</param>
+        </hardware>
+        <xacro:omni_wheel_transmission prefix="forward_right"/>
+        <xacro:omni_wheel_transmission prefix="forward_left"/>
+        <xacro:omni_wheel_transmission prefix="back_right"/>
+        <xacro:omni_wheel_transmission prefix="back_left"/>
+        <xacro:prefix_elfin_joint_isaac_sim_transmission headprefix="left_arm" prefix="1"/>
+        <xacro:prefix_elfin_joint_isaac_sim_transmission headprefix="left_arm" prefix="2"/>
+        <xacro:prefix_elfin_joint_isaac_sim_transmission headprefix="left_arm" prefix="3"/>
+        <xacro:prefix_elfin_joint_isaac_sim_transmission headprefix="left_arm" prefix="4"/>
+        <xacro:prefix_elfin_joint_isaac_sim_transmission headprefix="left_arm" prefix="5"/>
+        <xacro:prefix_elfin_joint_isaac_sim_transmission headprefix="left_arm" prefix="6"/>
+        <xacro:prefix_elfin_joint_isaac_sim_transmission headprefix="right_arm" prefix="1"/>
+        <xacro:prefix_elfin_joint_isaac_sim_transmission headprefix="right_arm" prefix="2"/>
+        <xacro:prefix_elfin_joint_isaac_sim_transmission headprefix="right_arm" prefix="3"/>
+        <xacro:prefix_elfin_joint_isaac_sim_transmission headprefix="right_arm" prefix="4"/>
+        <xacro:prefix_elfin_joint_isaac_sim_transmission headprefix="right_arm" prefix="5"/>
+        <xacro:prefix_elfin_joint_isaac_sim_transmission headprefix="right_arm" prefix="6"/>
+      </ros2_control>
+      </xacro:if> -->
+    
+  </xacro:macro>
+
+</robot>

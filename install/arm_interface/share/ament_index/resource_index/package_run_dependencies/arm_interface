@@ -1,0 +1,1 @@
+ocs2_core;Boost;ocs2_self_collision;ocs2_pinocchio_interface;ocs2_robotic_assets;ocs2_robotic_tools;ocs2_ros_interfaces;ocs2_mpc;ocs2_ddp;ocs2_mobile_manipulator;hpp-fcl;angles;pinocchio;rclcpp;ros2_control

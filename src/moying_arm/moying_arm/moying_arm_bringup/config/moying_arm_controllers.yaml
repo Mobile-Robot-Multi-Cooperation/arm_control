@@ -1,0 +1,170 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 125  # Hz
+    use_sime_time: true
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    arm_trajectory_controller:
+      type: velocity_controllers/JointGroupVelocityController
+
+    mpc_controller:
+      type: arm_controller/ARMController
+
+    # elfin_arm_controller:
+    #   type: joint_trajectory_controller/JointTrajectoryController
+    #   joints:
+    #     - elfin_joint1
+    #     - elfin_joint2
+    #     - elfin_joint3
+    #     - elfin_joint4
+    #     - elfin_joint5
+    #     - elfin_joint6
+    #   publish_rate: 50
+    #   write_op_modes:
+    #     - elfin_joint1
+    #     - elfin_joint2
+    #     - elfin_joint3
+    #     - elfin_joint4
+    #     - elfin_joint5
+    #     - elfin_joint6
+    # sensor_state_broadcaster:
+    #   update_rate: 100 #HZ
+    #   type: force_torque_sensor_broadcaster/ForceTorqueSensorBroadcaster
+
+# sensor_state_broadcaster:
+#   ros__parameters:
+#     update_rate: 100 #HZ
+#     sensor_name: arm_robotiq_ft_sensor
+#     state_interface_names:
+#       - force.x
+#       - force.y
+#       - force.z
+#       - torque.x
+#       - torque.y
+#       - torque.z
+#     frame_id: robotiq_ft_frame_id
+
+joint_state_broadcaster:
+  ros__parameters:
+    joints:
+      - elfin_joint1
+      - elfin_joint2
+      - elfin_joint3
+      - elfin_joint4
+      - elfin_joint5
+      - elfin_joint6
+    
+mpc_controller:
+  ros__parameters:
+    update_rate: 125 #Hz
+    joints:
+      - elfin_joint1
+      - elfin_joint2
+      - elfin_joint3
+      - elfin_joint4
+      - elfin_joint5
+      - elfin_joint6
+    interface_name: position
+    command_interfaces: [position]
+    state_interfaces: [position velocity]
+    task_package_name: "arm_interface"
+    task_file: "/config/arm_interface/task.info"
+    urdf_package_name: "moying_arm_description"
+    urdf_file: "/urdf/moying_arm.urdf"
+    lib_package_name: "moying_arm_bringup"
+    lib_folder: "/auto_generated"
+    use_chain_interface: false
+    # chain_velocity_interface_name: velocity_interface_controller
+
+  
+# arm_velocity_interface_controller:
+#   ros__parameters:
+#     update_rate: 1000 #Hz
+#     joints:
+#       - elfin_joint1
+#       - elfin_joint2
+#       - elfin_joint3
+#       - elfin_joint4
+#       - elfin_joint5
+#       - elfin_joint6
+#     ft_joint: "robotiq_ft_sensor"
+#     interface_name: velocity
+#     use_dynamics_models: true 
+#     use_pid: false
+#     device_name: elfin3
+#     coulomb_scale: [0.3,0.3,0.3,0.75,0.75,0.50]
+#     ft_offset: [-43.878816,17.973876,72.760725,2.781771,1.204735,-1.667312]
+#     gripper_mass: 1.0
+#     urdf_package: "moying_arm_description"
+#     urdf_path: "/urdf/left_only.urdf"
+#     end_link_name: "robotiq_ft_frame_id"
+#     elfin1:
+#       kp: 210.0
+#       kd: 0.0
+#       ki: 1000.0
+#       ki_max: 40.0
+#     elfin2:
+#       kp: 150.0
+#       kd: 0.0
+#       ki: 1000.0
+#       ki_max: 12.0
+#     elfin3:
+#       kp: 130.0
+#       kd: 0.0
+#       ki: 1000.0
+#       ki_max: 12.0
+#     elfin4:
+#       kp: 105.0
+#       kd: 0.0
+#       ki: 1000.0
+#       ki_max: 12.0
+#     elfin5:
+#       kp: 60.0
+#       kd: 0.0
+#       ki: 100.0
+#       ki_max: 12.0
+#     elfin6:
+#       kp: 50.0
+#       kd: 0.0
+#       ki: 1000.0
+#       ki_max: 12.0
+
+  
+# arm_trajectory_controller:
+#   ros__parameters:
+#     joints:
+#       - left_arm_velocity_interface_controller/left_arm_elfin_joint1
+#       - left_arm_velocity_interface_controller/left_arm_elfin_joint2
+#       - left_arm_velocity_interface_controller/left_arm_elfin_joint3
+#       - left_arm_velocity_interface_controller/left_arm_elfin_joint4
+#       - left_arm_velocity_interface_controller/left_arm_elfin_joint5
+#       - left_arm_velocity_interface_controller/left_arm_elfin_joint6
+
+
+elfin_arm_controller:
+  ros__parameters:
+    joints:
+     - elfin_joint1
+     - elfin_joint2
+     - elfin_joint3
+     - elfin_joint4
+     - elfin_joint5
+     - elfin_joint6
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+    state_publish_rate: 100.0
+    action_monitor_rate: 100.0
+    allow_partial_joints_goal: false
+    constraints:
+      stopped_velocity_tolerance: 0.01
+      goal_time: 0.6
+      elfin_joint1: { trajectory: 0.2, goal: 0.1 }
+      elfin_joint2: { trajectory: 0.2, goal: 0.1 }
+      elfin_joint3: { trajectory: 0.2, goal: 0.1 }
+      elfin_joint4: { trajectory: 0.2, goal: 0.1 }
+      elfin_joint5: { trajectory: 0.2, goal: 0.1 }
+      elfin_joint6: { trajectory: 0.2, goal: 0.1 }

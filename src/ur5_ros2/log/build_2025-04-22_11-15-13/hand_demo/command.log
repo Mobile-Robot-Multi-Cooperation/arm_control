@@ -1,0 +1,2 @@
+Invoking command in '/root/ocs2_ros2/ros_ws/src/ur5_ros2/build/hand_demo': /usr/bin/cmake /root/ocs2_ros2/ros_ws/src/ur5_ros2/ur5_arm/hand_demo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/ocs2_ros2/ros_ws/src/ur5_ros2/install/hand_demo
+Invoked command in '/root/ocs2_ros2/ros_ws/src/ur5_ros2/build/hand_demo' returned '1': /usr/bin/cmake /root/ocs2_ros2/ros_ws/src/ur5_ros2/ur5_arm/hand_demo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/ocs2_ros2/ros_ws/src/ur5_ros2/install/hand_demo

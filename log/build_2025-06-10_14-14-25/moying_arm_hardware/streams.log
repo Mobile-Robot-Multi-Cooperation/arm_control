@@ -1,0 +1,43 @@
+[0.008s] Invoking command in '/home/wyd/arm_ws/build/moying_arm_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wyd/arm_ws/src/moying_arm/moying_arm/moying_arm_hardware -DCMAKE_INSTALL_PREFIX=/home/wyd/arm_ws/install/moying_arm_hardware
+[0.017s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.081s] -- Found hardware_interface: 2.50.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.098s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.100s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.103s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.108s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.115s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.208s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.209s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.219s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.265s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.269s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.285s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.289s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.297s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.309s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.315s] -- Looking for pthread.h
+[0.392s] -- Looking for pthread.h - found
+[0.392s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.475s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.477s] -- Found Threads: TRUE  
+[0.517s] -- Configuring incomplete, errors occurred!
+[0.517s] See also "/home/wyd/arm_ws/build/moying_arm_hardware/CMakeFiles/CMakeOutput.log".
+[0.517s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[0.517s]   By not providing "Findelfin_ethercat_driver_plant.cmake" in
+[0.517s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[0.517s]   configuration file provided by "elfin_ethercat_driver_plant", but CMake did
+[0.517s]   not find one.
+[0.517s] 
+[0.517s]   Could not find a package configuration file provided by
+[0.517s]   "elfin_ethercat_driver_plant" with any of the following names:
+[0.517s] 
+[0.517s]     elfin_ethercat_driver_plantConfig.cmake
+[0.517s]     elfin_ethercat_driver_plant-config.cmake
+[0.517s] 
+[0.517s]   Add the installation prefix of "elfin_ethercat_driver_plant" to
+[0.517s]   CMAKE_PREFIX_PATH or set "elfin_ethercat_driver_plant_DIR" to a directory
+[0.517s]   containing one of the above files.  If "elfin_ethercat_driver_plant"
+[0.517s]   provides a separate development package or SDK, be sure it has been
+[0.517s]   installed.
+[0.517s] 
+[0.517s] [0m

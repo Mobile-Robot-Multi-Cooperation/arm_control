@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <model name="water_bottle">
+    <!-- 初始位置（X Y Z Roll Pitch Yaw） -->
+    <pose>0.0 0.0 0.1 0 0 0</pose>
+
+    <!-- ========== 实体水瓶链接 ========== -->
+    <link name="bottle_link">
+      <!-- 物理属性 -->
+      <inertial>
+        <mass>0.5</mass>
+        <inertia>
+          <ixx>0.0004</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0004</iyy>
+          <iyz>0</iyz>
+          <izz>0.0001</izz>
+        </inertia>
+      </inertial>
+
+      <!-- 视觉表现 -->
+      <visual name="visual">
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.2</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.8 1</ambient>
+          <diffuse>0.1 0.1 0.8 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+      </visual>
+
+      <!-- 碰撞检测 -->
+      <collision name="collision">
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.2</length>
+          </cylinder>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+    </link>
+
+  </model>
+</sdf>

@@ -1,0 +1,9 @@
+if_name: enp4s0
+soem: normal
+slave_no: [1, 2, 3]
+elfin_ethercat_drivers: ep3
+joint_names: [elfin_joint1, elfin_joint2, elfin_joint3, elfin_joint4, elfin_joint5, elfin_joint6]
+reduction_ratios: [101, 101, 101, 101, 101, 101]
+count_zeros: [10242836, 10256326, 21699284, 11327767, 4939608, 3092765]
+axis_position_factors: [131072, 131072, 131072, 131072, 131072, 131072]
+axis_torque_factors: [5251.283, 5251.283, 8533.125, 8533.125, 15975.05, 15975.05]

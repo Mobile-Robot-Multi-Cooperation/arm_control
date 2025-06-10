@@ -1,0 +1,53 @@
+[0.008s] Invoking command in '/home/wyd/arm_ws/build/moying_arm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wyd/arm_ws/build/moying_arm_description -- -j24 -l24
+[0.030s] Invoked command in '/home/wyd/arm_ws/build/moying_arm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wyd/arm_ws/build/moying_arm_description -- -j24 -l24
+[0.036s] Invoking command in '/home/wyd/arm_ws/build/moying_arm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wyd/arm_ws/build/moying_arm_description
+[0.039s] -- Install configuration: ""
+[0.039s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/config
+[0.039s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/config/display.rviz
+[0.039s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/config/arm_controllers.yaml
+[0.039s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/launch
+[0.040s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/launch/display.launch.py
+[0.040s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/launch/gazebo.launch.py
+[0.040s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/meshes
+[0.040s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/meshes/Body.STL
+[0.041s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/meshes/CD6003_TopCover.STL
+[0.048s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/meshes/humoyoid
+[0.048s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/meshes/humoyoid/YF14_Head_base.stl
+[0.048s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/meshes/humoyoid/YF14_Head.stl
+[0.050s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/meshes/humoyoid/Base_pillar.stl
+[0.050s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/meshes/humoyoid/Head.stl
+[0.051s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/meshes/humoyoid/Body.stl
+[0.051s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/meshes/Gripper_base.STL
+[0.051s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/meshes/accessories
+[0.052s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/meshes/accessories/d435.stl
+[0.052s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/meshes/Body_base.STL
+[0.052s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/urdf
+[0.052s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/urdf/moying_arm.urdf
+[0.052s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/urdf/d435.urdf.xacro
+[0.052s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/urdf/moying_arm_transmissions.xacro
+[0.052s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/urdf/materials.xacro
+[0.052s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/urdf/moying_arm.urdf.xacro
+[0.052s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/ros2_control
+[0.052s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/ros2_control/arm_ros2_control.xacro
+[0.052s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/ros2_control/moying_arm.ros2_control.xacro
+[0.052s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/ros2_control/moying_arm.ros2_control copy.xacro
+[0.052s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/gazebo
+[0.052s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/gazebo/moying_arm.gazebo.xacro
+[0.052s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/worlds
+[0.052s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/worlds/empty.world
+[0.052s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/ament_index/resource_index/package_run_dependencies/moying_arm_description
+[0.053s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/ament_index/resource_index/parent_prefix_path/moying_arm_description
+[0.053s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/environment/ament_prefix_path.sh
+[0.053s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/environment/ament_prefix_path.dsv
+[0.053s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/environment/path.sh
+[0.053s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/environment/path.dsv
+[0.053s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/local_setup.bash
+[0.053s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/local_setup.sh
+[0.053s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/local_setup.zsh
+[0.053s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/local_setup.dsv
+[0.053s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/package.dsv
+[0.053s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/ament_index/resource_index/packages/moying_arm_description
+[0.053s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/cmake/moying_arm_descriptionConfig.cmake
+[0.053s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/cmake/moying_arm_descriptionConfig-version.cmake
+[0.053s] -- Installing: /home/wyd/arm_ws/install/moying_arm_description/share/moying_arm_description/package.xml
+[0.056s] Invoked command in '/home/wyd/arm_ws/build/moying_arm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wyd/arm_ws/build/moying_arm_description

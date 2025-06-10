@@ -1,0 +1,9 @@
+/home/wyd/arm_ws/build/ur5_arm/CMakeFiles/uninstall.dir
+/home/wyd/arm_ws/build/ur5_arm/CMakeFiles/ur5_arm_uninstall.dir
+/home/wyd/arm_ws/build/ur5_arm/CMakeFiles/test.dir
+/home/wyd/arm_ws/build/ur5_arm/CMakeFiles/edit_cache.dir
+/home/wyd/arm_ws/build/ur5_arm/CMakeFiles/rebuild_cache.dir
+/home/wyd/arm_ws/build/ur5_arm/CMakeFiles/list_install_components.dir
+/home/wyd/arm_ws/build/ur5_arm/CMakeFiles/install.dir
+/home/wyd/arm_ws/build/ur5_arm/CMakeFiles/install/local.dir
+/home/wyd/arm_ws/build/ur5_arm/CMakeFiles/install/strip.dir

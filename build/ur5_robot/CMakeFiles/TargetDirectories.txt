@@ -1,0 +1,9 @@
+/home/wyd/arm_ws/build/ur5_robot/CMakeFiles/uninstall.dir
+/home/wyd/arm_ws/build/ur5_robot/CMakeFiles/ur5_robot_uninstall.dir
+/home/wyd/arm_ws/build/ur5_robot/CMakeFiles/test.dir
+/home/wyd/arm_ws/build/ur5_robot/CMakeFiles/edit_cache.dir
+/home/wyd/arm_ws/build/ur5_robot/CMakeFiles/rebuild_cache.dir
+/home/wyd/arm_ws/build/ur5_robot/CMakeFiles/list_install_components.dir
+/home/wyd/arm_ws/build/ur5_robot/CMakeFiles/install.dir
+/home/wyd/arm_ws/build/ur5_robot/CMakeFiles/install/local.dir
+/home/wyd/arm_ws/build/ur5_robot/CMakeFiles/install/strip.dir

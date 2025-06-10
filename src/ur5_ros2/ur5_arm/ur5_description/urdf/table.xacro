@@ -1,0 +1,170 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:macro name="table_link" params = "x y z">
+
+  <material name="white">
+    <color rgba="1 1 1 1"/>
+  </material>
+
+  <link name="table_top">
+    <visual>
+      <origin xyz="0 0 0.95"/>
+      <geometry>
+        <box size="1 0.5 0.1"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.95"/>
+      <geometry>
+        <box size="1 0.5 0.1"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="5.0"/>
+        <inertia
+        ixx="0.1083" ixy="0.0" ixz="0.0"
+        iyy="0.4208" iyz="0.0"
+        izz="0.5208"/>
+        </inertial>
+  </link>
+
+  <link name="leg1">
+    <visual>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <box size="0.1 0.1 0.9"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <box size="0.1 0.1 0.9"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1.0"/>
+      <inertia
+        ixx="0.0008333333333333333"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="0.0008333333333333333"
+        iyz="0.0"
+        izz="0.0025"/>
+    </inertial>
+  </link>
+
+  <link name="leg2">
+    <visual>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <box size="0.1 0.1 0.9"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <box size="0.1 0.1 0.9"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1.0"/>
+      <inertia
+        ixx="0.0008333333333333333"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="0.0008333333333333333"
+        iyz="0.0"
+        izz="0.0025"/>
+    </inertial>
+  </link>
+
+  <link name="leg3">
+    <visual>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <box size="0.1 0.1 0.9"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <box size="0.1 0.1 0.9"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1.0"/>
+      <inertia
+        ixx="0.0008333333333333333"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="0.0008333333333333333"
+        iyz="0.0"
+        izz="0.0025"/>
+    </inertial>
+  </link>
+
+  <link name="leg4">
+    <visual>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <box size="0.1 0.1 0.9"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <box size="0.1 0.1 0.9"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1.0"/>
+      <inertia
+        ixx="0.0008333333333333333"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="0.0008333333333333333"
+        iyz="0.0"
+        izz="0.0025"/>
+    </inertial>
+  </link>
+
+  <joint name="table_top_to_leg1" type="fixed">
+    <parent link="table_top"/>
+    <child link="leg1"/>
+    <origin xyz="-0.45 -0.2 0.455"/>
+  </joint>
+
+  <joint name="table_top_to_leg2" type="fixed">
+    <parent link="table_top"/>
+    <child link="leg2"/>
+    <origin xyz="0.45 -0.2 0.455"/>
+  </joint>
+
+  <joint name="table_top_to_leg3" type="fixed">
+    <parent link="table_top"/>
+    <child link="leg3"/>
+    <origin xyz="-0.45 0.2 0.455"/>
+  </joint>
+
+  <joint name="table_top_to_leg4" type="fixed">
+    <parent link="table_top"/>
+    <child link="leg4"/>
+    <origin xyz="0.45 0.2 0.455"/>
+  </joint>
+
+  <joint name="world_to_table" type="fixed">
+    <parent link="world"/>
+    <child link="table_top"/>
+    <origin xyz="${x} ${y} ${z}"/>
+  </joint>
+
+
+  </xacro:macro>
+
+</robot>

@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="moying_arm">
+  <xacro:arg name="mode" default="gazebo"/> 
+  <xacro:arg name="settings" default=""/> 
+  <xacro:property name="select_mode" value="$(arg mode)"/>
+  <xacro:property name="select_settings" value="$(arg settings)"/>
+
+  <!-- arm -->
+  <xacro:include filename="$(find elfin_description)/urdf/elfin3_joint_link.xacro"/>
+  <xacro:elfin3_joints_links/>
+  <xacro:include filename="$(find moying_arm_description)/ros2_control/arm_ros2_control.xacro"/>
+  <xacro:arm_ros2_control mode ="gazebo"/>
+  <xacro:include filename="$(find moying_arm_description)/urdf/moying_arm_transmissions.xacro"/>
+  <xacro:moying_arm_transmissions/>
+
+  <!-- <xacro:include filename="$(find robotiq_description)/urdf/robotiq_2f_85_macro.urdf.xacro"/>
+  <xacro:include filename="$(find robotiq_ft_sensor_description)/urdf/robotiq_ft300.urdf.xacro"/> -->
+
+  <material name="DarkGrey">
+    <color rgba="0.3 0.3 0.3 1.0"/>
+  </material>
+  <material name="Silver">
+    <color rgba="0.75 0.75 0.75 1.0"/>
+  </material>
+  <material name="BrightWhite">
+    <color rgba="0.8 0.8 0.8 1.0"/>
+  </material>
+  <material name="GlassWhite">
+    <color rgba="1 1 1 1.0"/>
+  </material>
+  <material name="Pink">
+    <color rgba="1 0.3 0.3 1.0"/>
+  </material>
+
+  <!-- <link name="base_link" />
+
+  <link name="catch_centor"/>
+  <joint
+    name="catcha_joint"
+    type="fixed">
+    <origin
+      xyz="0.65 0 1.2"
+      rpy="0 0 0" />
+    <parent link="base_link" />
+    <child
+      link="catch_centor" />
+    <dynamics
+      friction="0.1" />
+  </joint>
+  <link name="mmcomcr"/>
+  <joint
+    name="base_joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent link="base_link" />
+    <child
+      link="mmcomcr" />
+    <dynamics
+      friction="0.1" />
+  </joint> -->
+  
+
+  <!-- <xacro:robotiq_gripper name="left_gripper" prefix="left_arm_" parent="left_arm_robotiq_ft_frame_id" com_port="/dev/ttyUSB1">
+    <origin xyz="0 0 0.07" rpy="0 0 1.29 "/>
+  </xacro:robotiq_gripper>
+  <xacro:robotiq_gripper name="right_gripper" prefix="right_arm_" parent="right_arm_robotiq_ft_frame_id" com_port="/dev/ttyUSB2">
+    <origin xyz="0 0 0.07" rpy="0 0 1.29 "/>
+  </xacro:robotiq_gripper> -->
+
+
+
+
+
+</robot>

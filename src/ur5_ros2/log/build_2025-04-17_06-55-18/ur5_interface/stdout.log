@@ -1,0 +1,68 @@
+[35m[1mConsolidate compiler generated dependencies of target ur5_interface[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/ur5_interface.dir/src/ur5_interface.cpp.o[0m
+[ 22%] [32m[1mLinking CXX shared library libur5_interface.so[0m
+[100%] Built target ur5_interface
+-- Install configuration: ""
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/lib/libur5_interface.so
+-- Set runtime path of "/root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/lib/libur5_interface.so" to ""
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/package_path.h.in
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/package_path.h.in
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/factory_functions.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/ur5_module_info.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/command
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/command/ur5_target_trajectories_interactive_marker.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/command/joy_target_trajectories.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/ur5_interface.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/ur5_precomputation.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/constraint
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/constraint/base_constraint.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/constraint/ur5_self_collision_constraint.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/constraint/end_effort_constraint.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/ur5_pinocchio_mapping.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/cost
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/cost/quadratic_input_cost.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/dynamics
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/dynamics/ur5_dynamics.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/ur5_wb_pinocchio_mapping.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/factory_functions.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_module_info.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/command
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/command/ur5_target_trajectories_interactive_marker.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/command/joy_target_trajectories.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_precomputation.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/constraint
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/constraint/base_constraint.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/constraint/ur5_self_collision_constraint.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/constraint/end_effort_constraint.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_pinocchio_mapping.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/cost
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/cost/quadratic_input_cost.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/dynamics
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/dynamics/ur5_dynamics.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/config/ur5/
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/config/ur5//task.info
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/environment/library_path.sh
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/environment/library_path.dsv
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ament_index/resource_index/package_run_dependencies/ur5_interface
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ament_index/resource_index/parent_prefix_path/ur5_interface
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/environment/ament_prefix_path.sh
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/environment/path.sh
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/environment/path.dsv
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/local_setup.bash
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/local_setup.sh
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/local_setup.zsh
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/local_setup.dsv
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/package.dsv
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ament_index/resource_index/packages/ur5_interface
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/cmake/export_ur5_interfaceExport.cmake
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/cmake/export_ur5_interfaceExport-noconfig.cmake
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/cmake/ur5_interfaceConfig.cmake
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/cmake/ur5_interfaceConfig-version.cmake
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/package.xml

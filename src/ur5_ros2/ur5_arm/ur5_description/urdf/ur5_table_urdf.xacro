@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="ur5">
+
+  <!-- Enable setting arguments from the launch file -->
+  <xacro:arg name="name" default="ur5"/>
+  <xacro:arg name="mode" default="gazebo"/> 
+  <xacro:arg name="x" default="0"/> 
+  <xacro:arg name="y" default="1"/> 
+  <xacro:arg name="z" default="0"/> 
+  <xacro:arg name="a" default="0.2"/> 
+  <xacro:arg name="b" default="1.2"/> 
+  <xacro:arg name="c" default="1"/> 
+  <xacro:property name="select_mode" value="$(arg mode)"/>
+  <xacro:property name="position_x" value="$(arg x)"/>
+  <xacro:property name="position_y" value="$(arg y)"/>
+  <xacro:property name="position_z" value="$(arg z)"/>
+  <xacro:property name="position_a" value="$(arg a)"/>
+  <xacro:property name="position_b" value="$(arg b)"/>
+  <xacro:property name="position_c" value="$(arg c)"/>
+  <!-- include ur5 macro -->
+  <xacro:include filename="$(find ur5_description)/urdf/ur5_joints_links.xacro" />
+  <xacro:ur5_joints_links />
+
+  <!-- include transmissions -->
+  <xacro:include filename="$(find ur5_description)/urdf/ur5_transmissions.xacro" />
+  <xacro:ur5_transmissions />
+
+  <!-- include ur5 ros2_control description -->
+  <xacro:include filename="$(find ur5_description)/urdf/ur5_ros2_control.xacro" />
+  <xacro:ur5_ros2_control mode="${select_mode}"/>
+
+  <!-- include table description -->
+  <xacro:include filename="$(find ur5_description)/urdf/table.xacro" />
+  <xacro:table_link x="${position_x}" y="${position_y}" z="${position_z}"/>
+
+  <!-- include bottle description -->
+  <!-- <xacro:include filename="$(find ur5_description)/urdf/bottle.xacro" />
+  <xacro:water_bottle a="${position_a}" b="${position_b}" c="${position_c}"/> -->
+
+</robot>
+
+

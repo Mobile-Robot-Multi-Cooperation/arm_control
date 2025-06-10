@@ -1,0 +1,1 @@
+Invoking command in '/root/ocs2_ros2/ros_ws/src/ur5_ros2/build/ur5_description': /usr/bin/cmake --build /root/ocs2_ros2/ros_ws/src/ur5_ros2/build/ur5_description -- -j36 -l36

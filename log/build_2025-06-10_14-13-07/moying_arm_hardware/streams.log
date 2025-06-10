@@ -1,0 +1,35 @@
+[0.008s] Invoking command in '/home/wyd/arm_ws/build/moying_arm_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wyd/arm_ws/src/moying_arm/moying_arm/moying_arm_hardware -DCMAKE_INSTALL_PREFIX=/home/wyd/arm_ws/install/moying_arm_hardware
+[0.047s] -- The C compiler identification is GNU 12.3.0
+[0.084s] -- The CXX compiler identification is GNU 12.3.0
+[0.089s] -- Detecting C compiler ABI info
+[0.136s] -- Detecting C compiler ABI info - done
+[0.140s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.140s] -- Detecting C compile features
+[0.140s] -- Detecting C compile features - done
+[0.142s] -- Detecting CXX compiler ABI info
+[0.185s] -- Detecting CXX compiler ABI info - done
+[0.189s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.189s] -- Detecting CXX compile features
+[0.189s] -- Detecting CXX compile features - done
+[0.190s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.267s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.310s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[0.310s]   By not providing "Findhardware_interface.cmake" in CMAKE_MODULE_PATH this
+[0.310s]   project has asked CMake to find a package configuration file provided by
+[0.310s]   "hardware_interface", but CMake did not find one.
+[0.310s] 
+[0.310s]   Could not find a package configuration file provided by
+[0.310s]   "hardware_interface" with any of the following names:
+[0.310s] 
+[0.310s]     hardware_interfaceConfig.cmake
+[0.310s]     hardware_interface-config.cmake
+[0.310s] 
+[0.310s]   Add the installation prefix of "hardware_interface" to CMAKE_PREFIX_PATH or
+[0.310s]   set "hardware_interface_DIR" to a directory containing one of the above
+[0.311s]   files.  If "hardware_interface" provides a separate development package or
+[0.311s]   SDK, be sure it has been installed.
+[0.311s] 
+[0.311s] [0m
+[0.311s] -- Configuring incomplete, errors occurred!
+[0.311s] See also "/home/wyd/arm_ws/build/moying_arm_hardware/CMakeFiles/CMakeOutput.log".
+[0.313s] Invoked command in '/home/wyd/arm_ws/build/moying_arm_hardware' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wyd/arm_ws/src/moying_arm/moying_arm/moying_arm_hardware -DCMAKE_INSTALL_PREFIX=/home/wyd/arm_ws/install/moying_arm_hardware

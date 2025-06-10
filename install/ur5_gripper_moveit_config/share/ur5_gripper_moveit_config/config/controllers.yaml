@@ -1,0 +1,46 @@
+controller_names:
+  - scaled_joint_trajectory_controller
+  - joint_trajectory_controller
+  - hand_controller
+
+
+scaled_joint_trajectory_controller:
+  action_ns: follow_joint_trajectory
+  type: FollowJointTrajectory
+  default: false 
+  joints:
+    - shoulder_pan_joint
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+
+
+joint_trajectory_controller:
+  action_ns: follow_joint_trajectory
+  type: FollowJointTrajectory
+  default: true
+  joints:
+    - shoulder_pan_joint
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+
+hand_controller:
+  action_ns: follow_joint_trajectory
+  type: FollowJointTrajectory
+  default: true
+  joints:
+      - r_indexMCP
+      - r_indexPIP
+      - r_littleMCP
+      - r_littlePIP
+      - r_middleMCP
+      - r_middlePIP
+      - r_ringMCP
+      - r_ringPIP
+      - r_thumbCMC
+      - r_thumbMCP

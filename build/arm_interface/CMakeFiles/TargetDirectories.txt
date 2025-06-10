@@ -1,0 +1,10 @@
+/home/wyd/arm_ws/build/arm_interface/CMakeFiles/uninstall.dir
+/home/wyd/arm_ws/build/arm_interface/CMakeFiles/arm_interface_uninstall.dir
+/home/wyd/arm_ws/build/arm_interface/CMakeFiles/arm_interface.dir
+/home/wyd/arm_ws/build/arm_interface/CMakeFiles/test.dir
+/home/wyd/arm_ws/build/arm_interface/CMakeFiles/edit_cache.dir
+/home/wyd/arm_ws/build/arm_interface/CMakeFiles/rebuild_cache.dir
+/home/wyd/arm_ws/build/arm_interface/CMakeFiles/list_install_components.dir
+/home/wyd/arm_ws/build/arm_interface/CMakeFiles/install.dir
+/home/wyd/arm_ws/build/arm_interface/CMakeFiles/install/local.dir
+/home/wyd/arm_ws/build/arm_interface/CMakeFiles/install/strip.dir

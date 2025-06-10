@@ -1,0 +1,72 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='bottle'>
+    <link name='link'>
+      <inertial>
+        <mass>0.5</mass>  <!-- 假设瓶子质量为0.5kg -->
+        <inertia>
+          <ixx>0.000417</ixx>  <!-- 圆柱惯性矩公式: Ixx = Iyy = (1/12)*m*(3r² + h²) -->
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.000417</iyy>
+          <iyz>0</iyz>
+          <izz>0.000075</izz>  <!-- Izz = (1/2)*m*r² -->
+        </inertia>
+        <pose>0 0 0.11 0 0 0</pose>  <!-- 质心位于高度一半 -->
+      </inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <gravity>1</gravity>
+      <self_collide>0</self_collide>
+      <kinematic>0</kinematic>
+      <enable_wind>0</enable_wind>
+      
+      <!-- 视觉模型 -->
+      <visual name='visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>  <!-- 半径3cm -->
+            <length>0.22</length>  <!-- 高度22cm -->
+          </cylinder>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Blue</name>  <!-- 蓝色材质 -->
+          </script>
+          <ambient>0 0 0.8 1</ambient>  <!-- RGBA: 蓝色 -->
+          <diffuse>0 0 0.8 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+        </material>
+        <cast_shadows>1</cast_shadows>
+      </visual>
+      
+      <!-- 碰撞模型 -->
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.22</length>
+          </cylinder>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.5</mu>  <!-- 摩擦系数降低（玻璃/塑料特性） -->
+              <mu2>0.5</mu2>
+            </ode>
+          </friction>
+          <bounce>
+            <restitution_coefficient>0.3</restitution_coefficient>  <!-- 弹性系数 -->
+          </bounce>
+        </surface>
+      </collision>
+    </link>
+    <static>0</static>  <!-- 非静态物体 -->
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

@@ -1,0 +1,2 @@
+Invoking command in '/home/wyd/arm_ws/build/moying_arm_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wyd/arm_ws/src/moying_arm/moying_arm/moying_arm_hardware -DCMAKE_INSTALL_PREFIX=/home/wyd/arm_ws/install/moying_arm_hardware
+Invoked command in '/home/wyd/arm_ws/build/moying_arm_hardware' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wyd/arm_ws/src/moying_arm/moying_arm/moying_arm_hardware -DCMAKE_INSTALL_PREFIX=/home/wyd/arm_ws/install/moying_arm_hardware

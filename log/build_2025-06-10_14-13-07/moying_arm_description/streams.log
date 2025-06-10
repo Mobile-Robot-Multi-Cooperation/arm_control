@@ -1,0 +1,23 @@
+[0.008s] Invoking command in '/home/wyd/arm_ws/build/moying_arm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wyd/arm_ws/src/moying_arm/moying_arm/moying_arm_description -DCMAKE_INSTALL_PREFIX=/home/wyd/arm_ws/install/moying_arm_description
+[0.047s] -- The C compiler identification is GNU 12.3.0
+[0.081s] -- The CXX compiler identification is GNU 12.3.0
+[0.085s] -- Detecting C compiler ABI info
+[0.128s] -- Detecting C compiler ABI info - done
+[0.133s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.133s] -- Detecting C compile features
+[0.134s] -- Detecting C compile features - done
+[0.135s] -- Detecting CXX compiler ABI info
+[0.184s] -- Detecting CXX compiler ABI info - done
+[0.188s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.188s] -- Detecting CXX compile features
+[0.188s] -- Detecting CXX compile features - done
+[0.189s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.274s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.319s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.380s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.380s] -- Added test 'lint_cmake' to check CMake code style
+[0.381s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.382s] -- Added test 'xmllint' to check XML markup files
+[0.382s] -- Configuring done
+[0.384s] -- Generating done
+[0.385s] -- Build files have been written to: /home/wyd/arm_ws/build/moying_arm_description

@@ -1,0 +1,45 @@
+[0.009s] Invoking command in '/home/wyd/arm_ws/build/arm_controller': AMENT_PREFIX_PATH=/home/wyd/arm_ws/install/arm_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyd/arm_ws/install/arm_interface:/home/wyd/OCS2_ROS2/install/ocs2_ros2:/home/wyd/OCS2_ROS2/install/ocs2_robotic_examples:/home/wyd/OCS2_ROS2/install/ocs2_anymal:/home/wyd/OCS2_ROS2/install/ocs2_anymal_loopshaping_mpc:/home/wyd/OCS2_ROS2/install/ocs2_quadruped_loopshaping_interface:/home/wyd/OCS2_ROS2/install/ocs2_anymal_mpc:/home/wyd/OCS2_ROS2/install/ocs2_quadruped_interface:/home/wyd/OCS2_ROS2/install/segmented_planes_terrain_model:/home/wyd/OCS2_ROS2/install/ocs2_sphere_approximation:/home/wyd/OCS2_ROS2/install/ocs2_pinocchio:/home/wyd/OCS2_ROS2/install/ocs2_mobile_manipulator_ros:/home/wyd/OCS2_ROS2/install/ocs2_self_collision_visualization:/home/wyd/OCS2_ROS2/install/ocs2_mobile_manipulator:/home/wyd/OCS2_ROS2/install/ocs2_self_collision:/home/wyd/OCS2_ROS2/install/ocs2_raisim:/home/wyd/OCS2_ROS2/install/ocs2_legged_robot_raisim:/home/wyd/OCS2_ROS2/install/ocs2_legged_robot_ros:/home/wyd/OCS2_ROS2/install/ocs2_legged_robot:/home/wyd/OCS2_ROS2/install/ocs2_centroidal_model:/home/wyd/OCS2_ROS2/install/ocs2_anymal_models:/home/wyd/OCS2_ROS2/install/ocs2_pinocchio_interface:/home/wyd/OCS2_ROS2/install/pinocchio:/home/wyd/OCS2_ROS2/install/ocs2_anymal_commands:/home/wyd/OCS2_ROS2/install/ocs2_switched_model_interface:/home/wyd/OCS2_ROS2/install/ocs2_ballbot_ros:/home/wyd/OCS2_ROS2/install/ocs2_ballbot:/home/wyd/OCS2_ROS2/install/ocs2_sqp:/home/wyd/OCS2_ROS2/install/ocs2_slp:/home/wyd/OCS2_ROS2/install/ocs2_quadrotor_ros:/home/wyd/OCS2_ROS2/install/ocs2_double_integrator_ros:/home/wyd/OCS2_ROS2/install/ocs2_cartpole_ros:/home/wyd/OCS2_ROS2/install/ocs2_ros_interfaces:/home/wyd/OCS2_ROS2/install/ocs2_quadrotor:/home/wyd/OCS2_ROS2/install/ocs2_double_integrator:/home/wyd/OCS2_ROS2/install/ocs2_python_interface:/home/wyd/OCS2_ROS2/install/ocs2_perceptive:/home/wyd/OCS2_ROS2/install/ocs2_cartpole:/home/wyd/OCS2_ROS2/install/ocs2_robotic_tools:/home/wyd/OCS2_ROS2/install/ocs2_raisim_ros:/home/wyd/OCS2_ROS2/install/ocs2_raisim_core:/home/wyd/OCS2_ROS2/install/ocs2_ocs2:/home/wyd/OCS2_ROS2/install/ocs2_ipm:/home/wyd/OCS2_ROS2/install/ocs2_ddp:/home/wyd/OCS2_ROS2/install/hpipm_catkin:/home/wyd/OCS2_ROS2/install/ocs2_qp_solver:/home/wyd/OCS2_ROS2/install/ocs2_mpc:/home/wyd/OCS2_ROS2/install/ocs2_oc:/home/wyd/OCS2_ROS2/install/ocs2_frank_wolfe:/home/wyd/OCS2_ROS2/install/ocs2_core:/home/wyd/OCS2_ROS2/install/ocs2_thirdparty:/home/wyd/OCS2_ROS2/install/ocs2_switched_model_msgs:/home/wyd/OCS2_ROS2/install/ocs2_robotic_assets:/home/wyd/OCS2_ROS2/install/ocs2_msgs:/home/wyd/OCS2_ROS2/install/hpp-fcl:/home/wyd/OCS2_ROS2/install/convex_plane_decomposition_ros:/home/wyd/OCS2_ROS2/install/convex_plane_decomposition:/opt/ros/humble:/home/wyd/OCS2_ROS2/install/grid_map_filters_rsl:/home/wyd/OCS2_ROS2/install/convex_plane_decomposition_msgs:/home/wyd/OCS2_ROS2/install/cgal5_catkin:/home/wyd/OCS2_ROS2/install/blasfeo_catkin:/home/wyd/raisim/install/raisim LD_LIBRARY_PATH=/home/wyd/arm_ws/install/arm_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/wyd/arm_ws/src/moying_arm/arm_controller -DCMAKE_INSTALL_PREFIX=/home/wyd/arm_ws/install/arm_controller
+[0.026s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.097s] -- Found generate_parameter_library: 0.4.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[0.098s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.113s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.114s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.116s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.122s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.129s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.145s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.147s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.217s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.243s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.252s] -- Found arm_interface: 0.0.0 (/home/wyd/arm_ws/install/arm_interface/share/arm_interface/cmake)
+[0.262s] -- hpp-fcl FOUND. hpp-fcl at /home/wyd/OCS2_ROS2/install/hpp-fcl/lib/libhpp-fcl.so
+[0.453s] -- Default C++ standard: 201703
+[0.453s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.454s] -- pinocchio FOUND. pinocchio at /home/wyd/OCS2_ROS2/install/pinocchio/lib/libpinocchio.so
+[0.454s] -- boost_filesystem FOUND. boost_filesystem at /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+[0.455s] -- boost_serialization FOUND. boost_serialization at /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+[0.455s] -- boost_system FOUND. boost_system at /usr/lib/x86_64-linux-gnu/libboost_system.so
+[0.460s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.546s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.565s] -- Found controller_interface: 2.50.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.570s] -- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.575s] -- Found ocs2_self_collision_visualization: 0.0.0 (/home/wyd/OCS2_ROS2/install/ocs2_self_collision_visualization/share/ocs2_self_collision_visualization/cmake)
+[0.584s] [31mCMake Error at CMakeLists.txt:51 (find_package):
+[0.584s]   By not providing "Findlocalization_msgs.cmake" in CMAKE_MODULE_PATH this
+[0.584s]   project has asked CMake to find a package configuration file provided by
+[0.584s]   "localization_msgs", but CMake did not find one.
+[0.584s] 
+[0.584s]   Could not find a package configuration file provided by "localization_msgs"
+[0.584s]   with any of the following names:
+[0.584s] 
+[0.584s]     localization_msgsConfig.cmake
+[0.584s]     localization_msgs-config.cmake
+[0.585s] 
+[0.585s]   Add the installation prefix of "localization_msgs" to CMAKE_PREFIX_PATH or
+[0.585s]   set "localization_msgs_DIR" to a directory containing one of the above
+[0.585s]   files.  If "localization_msgs" provides a separate development package or
+[0.585s]   SDK, be sure it has been installed.
+[0.585s] 
+[0.585s] [0m
+[0.585s] -- Configuring incomplete, errors occurred!
+[0.585s] See also "/home/wyd/arm_ws/build/arm_controller/CMakeFiles/CMakeOutput.log".

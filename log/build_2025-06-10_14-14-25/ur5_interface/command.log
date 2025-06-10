@@ -1,0 +1,2 @@
+Invoking command in '/home/wyd/arm_ws/build/ur5_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wyd/arm_ws/src/ur5_ros2/ur5_interface -DCMAKE_INSTALL_PREFIX=/home/wyd/arm_ws/install/ur5_interface
+Invoked command in '/home/wyd/arm_ws/build/ur5_interface' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wyd/arm_ws/src/ur5_ros2/ur5_interface -DCMAKE_INSTALL_PREFIX=/home/wyd/arm_ws/install/ur5_interface

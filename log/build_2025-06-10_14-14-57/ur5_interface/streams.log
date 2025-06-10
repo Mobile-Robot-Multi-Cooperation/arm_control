@@ -1,0 +1,55 @@
+[0.017s] Invoking command in '/home/wyd/arm_ws/build/ur5_interface': CMAKE_PREFIX_PATH=/home/wyd/OCS2_ROS2/install/ocs2_ros2:/home/wyd/OCS2_ROS2/install/ocs2_robotic_examples:/home/wyd/OCS2_ROS2/install/ocs2_anymal:/home/wyd/OCS2_ROS2/install/ocs2_anymal_loopshaping_mpc:/home/wyd/OCS2_ROS2/install/ocs2_quadruped_loopshaping_interface:/home/wyd/OCS2_ROS2/install/ocs2_anymal_mpc:/home/wyd/OCS2_ROS2/install/ocs2_quadruped_interface:/home/wyd/OCS2_ROS2/install/segmented_planes_terrain_model:/home/wyd/OCS2_ROS2/install/ocs2_sphere_approximation:/home/wyd/OCS2_ROS2/install/ocs2_pinocchio:/home/wyd/OCS2_ROS2/install/ocs2_mobile_manipulator_ros:/home/wyd/OCS2_ROS2/install/ocs2_self_collision_visualization:/home/wyd/OCS2_ROS2/install/ocs2_mobile_manipulator:/home/wyd/OCS2_ROS2/install/ocs2_self_collision:/home/wyd/OCS2_ROS2/install/ocs2_raisim:/home/wyd/OCS2_ROS2/install/ocs2_legged_robot_raisim:/home/wyd/OCS2_ROS2/install/ocs2_legged_robot_ros:/home/wyd/OCS2_ROS2/install/ocs2_legged_robot:/home/wyd/OCS2_ROS2/install/ocs2_centroidal_model:/home/wyd/OCS2_ROS2/install/ocs2_anymal_models:/home/wyd/OCS2_ROS2/install/ocs2_pinocchio_interface:/home/wyd/OCS2_ROS2/install/pinocchio:/home/wyd/OCS2_ROS2/install/ocs2_anymal_commands:/home/wyd/OCS2_ROS2/install/ocs2_switched_model_interface:/home/wyd/OCS2_ROS2/install/ocs2_ballbot_ros:/home/wyd/OCS2_ROS2/install/ocs2_ballbot:/home/wyd/OCS2_ROS2/install/ocs2_sqp:/home/wyd/OCS2_ROS2/install/ocs2_slp:/home/wyd/OCS2_ROS2/install/ocs2_quadrotor_ros:/home/wyd/OCS2_ROS2/install/ocs2_double_integrator_ros:/home/wyd/OCS2_ROS2/install/ocs2_cartpole_ros:/home/wyd/OCS2_ROS2/install/ocs2_ros_interfaces:/home/wyd/OCS2_ROS2/install/ocs2_quadrotor:/home/wyd/OCS2_ROS2/install/ocs2_double_integrator:/home/wyd/OCS2_ROS2/install/ocs2_python_interface:/home/wyd/OCS2_ROS2/install/ocs2_perceptive:/home/wyd/OCS2_ROS2/install/ocs2_cartpole:/home/wyd/OCS2_ROS2/install/ocs2_robotic_tools:/home/wyd/OCS2_ROS2/install/ocs2_raisim_ros:/home/wyd/OCS2_ROS2/install/ocs2_raisim_core:/home/wyd/OCS2_ROS2/install/ocs2_ocs2:/home/wyd/OCS2_ROS2/install/ocs2_ipm:/home/wyd/OCS2_ROS2/install/ocs2_ddp:/home/wyd/OCS2_ROS2/install/hpipm_catkin:/home/wyd/OCS2_ROS2/install/ocs2_qp_solver:/home/wyd/OCS2_ROS2/install/ocs2_mpc:/home/wyd/OCS2_ROS2/install/ocs2_oc:/home/wyd/OCS2_ROS2/install/ocs2_frank_wolfe:/home/wyd/OCS2_ROS2/install/ocs2_core:/home/wyd/OCS2_ROS2/install/ocs2_thirdparty:/home/wyd/OCS2_ROS2/install/ocs2_switched_model_msgs:/home/wyd/OCS2_ROS2/install/ocs2_robotic_assets:/home/wyd/OCS2_ROS2/install/ocs2_msgs:/home/wyd/OCS2_ROS2/install/hpp-fcl:/home/wyd/OCS2_ROS2/install/convex_plane_decomposition_ros:/home/wyd/OCS2_ROS2/install/convex_plane_decomposition:/opt/ros/humble:/home/wyd/OCS2_ROS2/install/grid_map_filters_rsl:/home/wyd/OCS2_ROS2/install/convex_plane_decomposition_msgs:/home/wyd/OCS2_ROS2/install/cgal5_catkin:/home/wyd/OCS2_ROS2/install/blasfeo_catkin:/home/wyd/raisim/install/raisim /usr/bin/cmake /home/wyd/arm_ws/src/ur5_ros2/ur5_interface -DCMAKE_INSTALL_PREFIX=/home/wyd/arm_ws/install/ur5_interface
+[0.028s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.098s] -- Found ocs2_core: 0.0.0 (/home/wyd/OCS2_ROS2/install/ocs2_core/share/ocs2_core/cmake)
+[0.283s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[0.351s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[0.351s] -- Found OpenMP: TRUE (found version "4.5")  
+[0.510s] -- Found ocs2_ddp: 0.0.0 (/home/wyd/OCS2_ROS2/install/ocs2_ddp/share/ocs2_ddp/cmake)
+[0.527s] -- Found realtime_tools: 2.13.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[0.566s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.571s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.578s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.587s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.600s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.635s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.639s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.728s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.750s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.779s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.788s] -- Found Threads: TRUE  
+[0.841s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[0.857s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.889s] -- Found ocs2_ros_interfaces: 0.0.0 (/home/wyd/OCS2_ROS2/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/cmake)
+[0.924s] -- Found ocs2_pinocchio_interface: 0.0.0 (/home/wyd/OCS2_ROS2/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/cmake)
+[0.929s] -- hpp-fcl FOUND. hpp-fcl at /home/wyd/OCS2_ROS2/install/hpp-fcl/lib/libhpp-fcl.so
+[1.128s] -- Default C++ standard: 201703
+[1.128s] -- Minimal C++ standard upgraded to 11
+[1.128s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.130s] -- pinocchio FOUND. pinocchio at /home/wyd/OCS2_ROS2/install/pinocchio/lib/libpinocchio.so
+[1.130s] -- boost_filesystem FOUND. boost_filesystem at /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+[1.131s] -- boost_serialization FOUND. boost_serialization at /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+[1.131s] -- boost_system FOUND. boost_system at /usr/lib/x86_64-linux-gnu/libboost_system.so
+[1.143s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.164s] -- Found ocs2_robotic_assets: 10.3.0 (/home/wyd/OCS2_ROS2/install/ocs2_robotic_assets/share/ocs2_robotic_assets/cmake)
+[1.165s] -- Found ocs2_self_collision: 0.0.0 (/home/wyd/OCS2_ROS2/install/ocs2_self_collision/share/ocs2_self_collision/cmake)
+[1.167s] -- Found ocs2_mobile_manipulator: 0.0.0 (/home/wyd/OCS2_ROS2/install/ocs2_mobile_manipulator/share/ocs2_mobile_manipulator/cmake)
+[1.183s] -- Found Boost: /usr/include (found version "1.74.0") found components: system filesystem log_setup log date_time thread regex chrono atomic 
+[1.189s] [31mCMake Error at CMakeLists.txt:48 (find_package):
+[1.189s]   By not providing "Findxacro.cmake" in CMAKE_MODULE_PATH this project has
+[1.189s]   asked CMake to find a package configuration file provided by "xacro", but
+[1.189s]   CMake did not find one.
+[1.189s] 
+[1.189s]   Could not find a package configuration file provided by "xacro" with any of
+[1.189s]   the following names:
+[1.189s] 
+[1.189s]     xacroConfig.cmake
+[1.189s]     xacro-config.cmake
+[1.189s] 
+[1.189s]   Add the installation prefix of "xacro" to CMAKE_PREFIX_PATH or set
+[1.189s]   "xacro_DIR" to a directory containing one of the above files.  If "xacro"
+[1.189s]   provides a separate development package or SDK, be sure it has been
+[1.189s]   installed.
+[1.189s] 
+[1.189s] [0m
+[1.189s] -- Configuring incomplete, errors occurred!
+[1.189s] See also "/home/wyd/arm_ws/build/ur5_interface/CMakeFiles/CMakeOutput.log".

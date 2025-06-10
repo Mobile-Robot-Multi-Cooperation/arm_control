@@ -1,0 +1,130 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ocs2_core: 0.0.0 (/root/ocs2_ros2/ocs2_ws/install/ocs2_core/share/ocs2_core/cmake)
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found ocs2_ddp: 0.0.0 (/root/ocs2_ros2/ocs2_ws/install/ocs2_ddp/share/ocs2_ddp/cmake)
+-- Found realtime_tools: 2.12.0 (/opt/ros/humble/share/realtime_tools/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found Threads: TRUE  
+-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found ocs2_ros_interfaces: 0.0.0 (/root/ocs2_ros2/ocs2_ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/cmake)
+-- Found ocs2_pinocchio_interface: 0.0.0 (/root/ocs2_ros2/ocs2_ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/cmake)
+-- hpp-fcl FOUND. hpp-fcl at /opt/openrobots/lib/libhpp-fcl.so
+-- Default C++ standard: 201703
+-- Minimal C++ standard upgraded to 11
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- pinocchio_default FOUND. pinocchio_default at /opt/openrobots/lib/libpinocchio_default.so
+-- urdfdom_world FOUND. urdfdom_world at /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so
+-- hpp-fcl FOUND. hpp-fcl at /opt/openrobots/lib/libhpp-fcl.so
+-- boost_filesystem FOUND. boost_filesystem at /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+-- boost_serialization FOUND. boost_serialization at /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+-- boost_system FOUND. boost_system at /usr/lib/x86_64-linux-gnu/libboost_system.so
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- Found ocs2_robotic_assets: 10.3.0 (/root/ocs2_ros2/ocs2_ws/install/ocs2_robotic_assets/share/ocs2_robotic_assets/cmake)
+-- Found ocs2_self_collision: 0.0.0 (/root/ocs2_ros2/ocs2_ws/install/ocs2_self_collision/share/ocs2_self_collision/cmake)
+-- Found ocs2_mobile_manipulator: 0.0.0 (/root/ocs2_ros2/ros_ws/install/ocs2_mobile_manipulator/share/ocs2_mobile_manipulator/cmake)
+-- Found Boost: /usr/include (found version "1.74.0") found components: system filesystem log_setup log date_time thread regex chrono atomic 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'pinocchio'
+--   Found pinocchio, version 3.0.0
+-- Checking for module 'hpp-fcl'
+--   Found hpp-fcl, version 2.4.4
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ocs2_ros2/ros_ws/src/ur5_ros2/build/ur5_interface
+[ 22%] [32mBuilding CXX object CMakeFiles/ur5_interface.dir/src/constraint/end_effort_constraint.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/ur5_interface.dir/src/ur5_precomputation.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/ur5_interface.dir/src/ur5_interface.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/ur5_interface.dir/src/constraint/base_constraint.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/ur5_interface.dir/src/command/joy_target_trajectories.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/ur5_interface.dir/src/dynamics/ur5_dynamics.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/ur5_interface.dir/src/factory_functions.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/ur5_interface.dir/src/ur5_pinocchio_mapping.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libur5_interface.so[0m
+[100%] Built target ur5_interface
+-- Install configuration: ""
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/lib/libur5_interface.so
+-- Set runtime path of "/root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/lib/libur5_interface.so" to ""
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/package_path.h.in
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/package_path.h.in
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/factory_functions.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/ur5_module_info.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/command
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/command/ur5_target_trajectories_interactive_marker.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/command/joy_target_trajectories.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/ur5_interface.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/ur5_precomputation.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/constraint
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/constraint/base_constraint.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/constraint/ur5_self_collision_constraint.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/constraint/end_effort_constraint.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/ur5_pinocchio_mapping.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/cost
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/cost/quadratic_input_cost.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/dynamics
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/dynamics/ur5_dynamics.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface/ur5_wb_pinocchio_mapping.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/factory_functions.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_module_info.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/command
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/command/ur5_target_trajectories_interactive_marker.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/command/joy_target_trajectories.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_interface.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_precomputation.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/constraint
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/constraint/base_constraint.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/constraint/ur5_self_collision_constraint.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/constraint/end_effort_constraint.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/ur5_pinocchio_mapping.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/cost
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/cost/quadratic_input_cost.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/dynamics
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/include/ur5_interface/dynamics/ur5_dynamics.h
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/config/ur5/
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/config/ur5//task.info
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/environment/library_path.sh
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/environment/library_path.dsv
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ament_index/resource_index/package_run_dependencies/ur5_interface
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ament_index/resource_index/parent_prefix_path/ur5_interface
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/environment/ament_prefix_path.sh
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/environment/ament_prefix_path.dsv
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/environment/path.sh
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/environment/path.dsv
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/local_setup.bash
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/local_setup.sh
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/local_setup.zsh
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/local_setup.dsv
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/package.dsv
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ament_index/resource_index/packages/ur5_interface
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/cmake/export_ur5_interfaceExport.cmake
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/cmake/export_ur5_interfaceExport-noconfig.cmake
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/cmake/ur5_interfaceConfig.cmake
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/cmake/ur5_interfaceConfig-version.cmake
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_interface/share/ur5_interface/package.xml

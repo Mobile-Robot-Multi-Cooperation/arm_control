@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:macro name="water_bottle" params = "a b c">
+
+  <link name="base">
+    <visual>
+      <geometry>
+        <box size="0.01 0.01 0.01"/>  <!-- 可视化的地面标记 -->
+      </geometry>
+      <material name="gray">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+    <collision>
+    <geometry>
+      <box size="0.01 0.01 0.01"/>  <!-- 必须与visual尺寸一致 -->
+    </geometry>
+    <surface>
+      <friction>
+        <ode>
+          <mu>1.0</mu>    <!-- 静摩擦系数 -->
+          <mu2>1.0</mu2>  <!-- 动摩擦系数 -->
+        </ode>
+      </friction>
+      <bounce>
+        <restitution_coefficient>0.0</restitution_coefficient> <!-- 无弹性碰撞 -->
+      </bounce>
+    </surface>
+  </collision>
+  
+  <!-- 补充的惯性参数（避免Gazebo警告） -->
+  <inertial>
+    <mass value="0.001"/>  <!-- 极小质量（接近静态） -->
+    <inertia
+      ixx="0.000001" ixy="0.0" ixz="0.0"
+      iyy="0.000001" iyz="0.0"
+      izz="0.000001"/>
+  </inertial>
+  </link>
+
+  <material name="blue">
+    <color rgba="0.1 0.1 0.8 1.0"/>
+  </material>
+
+      <link name="bottle">
+      <visual>
+        <origin xyz="0 0 0.15"/>
+        <geometry>
+          <cylinder radius="0.02" length="0.2"/>
+        </geometry>
+        <material name="blue">
+          <color rgba="0.1 0.1 0.8 1.0"/>
+        </material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0.15"/>
+        <geometry>
+          <cylinder radius="0.02" length="0.2"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <mass value="0.6"/>
+        <origin xyz="0 0 0.15"/>
+        <inertia
+          ixx="0.00072" ixy="0.0" ixz="0.0"
+          iyy="0.00072" iyz="0.0"
+          izz="0.00032"/>
+      </inertial>
+    </link>
+
+  <joint name="world_to_base" type="fixed">
+    <parent link="world"/>
+    <child link="base"/>
+    <origin xyz="0 0 -0.05"/>
+  </joint>
+
+  <joint name="base_to_bottle_trans" type="prismatic">
+    <parent link="base"/>
+    <child link="bottle"/>
+    <axis>
+      <xyz>1 1 1</xyz>  <!-- 允许XYZ方向平移 -->
+      <limit>
+        <lower>-1e6</lower>
+        <upper>1e6</upper>
+      </limit>
+    </axis>
+    <origin xyz="${a} ${b} ${c}"/>
+  </joint>
+
+  <joint name="base_to_bottle_rot" type="ball">
+    <parent link="base"/>
+    <child link="bottle"/>
+    <origin xyz="${a} ${b} ${c}"/>
+  </joint>
+
+  <!-- Gazebo物理参数 -->
+  <gazebo reference="base_to_bottle_trans">
+    <stopCfm>0.0</stopCfm>
+    <stopErp>0.2</stopErp>
+  </gazebo>
+
+  </xacro:macro>
+
+</robot>

@@ -1,0 +1,39 @@
+[ 50%] Built target ur5_controller_parameters
+[ 75%] [32m[1mLinking CXX shared library libur5_controller.so[0m
+[100%] Built target ur5_controller
+-- Install configuration: ""
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/include/ur5_controller
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/include/ur5_controller/validate_ur5_controller_parameters.hpp
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/include/ur5_controller/ur5_controller_parameters.hpp
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/share/ur5_controller/ur5_controller.xml
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/lib/libur5_controller.so
+-- Set runtime path of "/root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/lib/libur5_controller.so" to ""
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/include/ur5_controller
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/include/ur5_controller/validate_ur5_controller_parameters.hpp
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/include/ur5_controller/visibility_control.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/include/ur5_controller/ur5_controller
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/include/ur5_controller/ur5_controller/validate_ur5_controller_parameters.hpp
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/include/ur5_controller/ur5_controller/visibility_control.h
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/include/ur5_controller/ur5_controller/ur5_controller.hpp
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/include/ur5_controller/ur5_controller.hpp
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/share/ur5_controller/environment/library_path.sh
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/share/ur5_controller/environment/library_path.dsv
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/share/ament_index/resource_index/package_run_dependencies/ur5_controller
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/share/ament_index/resource_index/parent_prefix_path/ur5_controller
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/share/ur5_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/share/ur5_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/share/ur5_controller/environment/path.sh
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/share/ur5_controller/environment/path.dsv
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/share/ur5_controller/local_setup.bash
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/share/ur5_controller/local_setup.sh
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/share/ur5_controller/local_setup.zsh
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/share/ur5_controller/local_setup.dsv
+-- Installing: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/share/ur5_controller/package.dsv
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/share/ament_index/resource_index/packages/ur5_controller
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur5_controller
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/share/ur5_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/share/ur5_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/share/ur5_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/share/ur5_controller/cmake/ur5_controllerConfig.cmake
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/share/ur5_controller/cmake/ur5_controllerConfig-version.cmake
+-- Up-to-date: /root/ocs2_ros2/ros_ws/src/ur5_ros2/install/ur5_controller/share/ur5_controller/package.xml

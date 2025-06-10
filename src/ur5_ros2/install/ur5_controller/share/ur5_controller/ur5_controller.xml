@@ -1,0 +1,8 @@
+<library path="ur5_controller">
+  <class name="ur5_controller/UR5Controller"
+         type="ur5_controller::UR5Controller" base_class_type="controller_interface::ControllerInterface"> 
+  <description>
+    UR5Controller ros2_control controller.
+  </description>
+  </class>
+</library>

@@ -1,0 +1,27 @@
+-- Install configuration: ""
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/config
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/config/joint_limits.yaml
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/config/ur5_arm_controller.yaml
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/config/ur_servo.yaml
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/config/kinematics.yaml
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/config/ompl_planning.yaml
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/config/controllers.yaml
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/launch
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/launch/ur5_control.launch.py
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/launch/__pycache__
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/launch/__pycache__/ur5_arm_control.launch.cpython-310.pyc
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ament_index/resource_index/package_run_dependencies/ur5_bringup
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ament_index/resource_index/parent_prefix_path/ur5_bringup
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/environment/ament_prefix_path.dsv
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/environment/path.sh
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/environment/path.dsv
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/local_setup.bash
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/local_setup.sh
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/local_setup.zsh
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/local_setup.dsv
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/package.dsv
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ament_index/resource_index/packages/ur5_bringup
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/cmake/ur5_bringupConfig.cmake
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/cmake/ur5_bringupConfig-version.cmake
+-- Installing: /home/wyd/arm_ws/install/ur5_bringup/share/ur5_bringup/package.xml

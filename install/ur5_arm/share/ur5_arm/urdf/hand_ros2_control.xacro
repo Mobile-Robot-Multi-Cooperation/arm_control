@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:macro name="hand_ros2_control" params="mode">
+
+    <!-- ROS2 Control Plugin-->
+
+    <gazebo>
+      <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+        <robot_param>robot_description</robot_param>
+        <robot_param_node>robot_state_publisher</robot_param_node>
+        <parameters>$(find ur5_gripper_moveit_config)/config/ur_controllers.yaml</parameters>
+      </plugin>
+    </gazebo>
+
+    <!-- ROS2 Control Hardware Interface-->
+
+    <ros2_control name="HAND_Hardware_Interface" type="system">
+
+      <hardware>
+        <xacro:if value="${mode=='gazebo'}">
+          <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+        </xacro:if>
+        <xacro:if value="${mode=='real'}">
+          <plugin>ur_robot_driver/URPositionHardwareInterface</plugin>
+        </xacro:if>
+      </hardware>
+
+      <joint name="r_thumbCMC">
+
+        <command_interface name="position">
+          
+          
+        </command_interface>
+
+        <!-- <command_interface name="velocity">
+          <param name="min">-3.14</param>
+          <param name="max">3.14</param>
+        </command_interface>
+
+        <command_interface name="effort">
+          <param name="min">-200.0</param>
+          <param name="max">200.0</param>
+        </command_interface> -->
+
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="effort"/>
+
+        
+
+      </joint>
+
+      <joint name="r_thumbMCP">
+
+        <command_interface name="position">
+          
+          
+        </command_interface>
+
+        <!-- <command_interface name="velocity">
+          <param name="min">-3.14</param>
+          <param name="max">3.14</param>
+        </command_interface>
+
+        <command_interface name="effort">
+          <param name="min">-200.0</param>
+          <param name="max">200.0</param>
+        </command_interface> -->
+
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="effort"/>
+
+        
+
+      </joint>
+
+      <joint name="r_indexMCP">
+
+        <command_interface name="position">
+          
+          
+        </command_interface>
+
+        <!-- <command_interface name="velocity">
+          <param name="min">-3.14</param>
+          <param name="max">3.14</param>
+        </command_interface>
+
+        <command_interface name="effort">
+          <param name="min">-200.0</param>
+          <param name="max">200.0</param>
+        </command_interface> -->
+
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="effort"/>
+
+        
+
+      </joint>
+
+      <joint name="r_indexPIP">
+
+        <command_interface name="position">
+          
+          
+        </command_interface>
+
+        <!-- <command_interface name="velocity">
+          <param name="min">-3.14</param>
+          <param name="max">3.14</param>
+        </command_interface>
+
+        <command_interface name="effort">
+          <param name="min">-200.0</param>
+          <param name="max">200.0</param>
+        </command_interface> -->
+
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="effort"/>
+
+        
+
+      </joint>
+
+      <joint name="r_middleMCP">
+
+        <command_interface name="position">
+          
+          
+        </command_interface>
+
+        <!-- <command_interface name="velocity">
+          <param name="min">-3.14</param>
+          <param name="max">3.14</param>
+        </command_interface>
+
+        <command_interface name="effort">
+          <param name="min">-200.0</param>
+          <param name="max">200.0</param>
+        </command_interface> -->
+
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="effort"/>
+
+        
+
+      </joint>
+
+      <joint name="r_middlePIP">
+
+        <command_interface name="position">
+          
+          
+        </command_interface>
+
+        <!-- <command_interface name="velocity">
+          <param name="min">-3.14</param>
+          <param name="max">3.14</param>
+        </command_interface>
+
+        <command_interface name="effort">
+          <param name="min">-200.0</param>
+          <param name="max">200.0</param>
+        </command_interface> -->
+
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="effort"/>
+
+        
+
+      </joint>
+
+      <joint name="r_ringMCP">
+
+        <command_interface name="position">
+          
+          
+        </command_interface>
+
+        <!-- <command_interface name="velocity">
+          <param name="min">-3.14</param>
+          <param name="max">3.14</param>
+        </command_interface>
+
+        <command_interface name="effort">
+          <param name="min">-200.0</param>
+          <param name="max">200.0</param>
+        </command_interface> -->
+
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="effort"/>
+
+        
+
+      </joint>
+
+      <joint name="r_ringPIP">
+
+        <command_interface name="position">
+          
+          
+        </command_interface>
+
+        <!-- <command_interface name="velocity">
+          <param name="min">-3.14</param>
+          <param name="max">3.14</param>
+        </command_interface>
+
+        <command_interface name="effort">
+          <param name="min">-200.0</param>
+          <param name="max">200.0</param>
+        </command_interface> -->
+
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="effort"/>
+
+        
+
+      </joint>
+
+      <joint name="r_littleMCP">
+
+        <command_interface name="position">
+          
+          
+        </command_interface>
+
+        <!-- <command_interface name="velocity">
+          <param name="min">-3.14</param>
+          <param name="max">3.14</param>
+        </command_interface>
+
+        <command_interface name="effort">
+          <param name="min">-200.0</param>
+          <param name="max">200.0</param>
+        </command_interface> -->
+
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="effort"/>
+
+        
+
+      </joint>
+
+      <joint name="r_littlePIP">
+
+        <command_interface name="position">
+          
+          
+        </command_interface>
+
+        <!-- <command_interface name="velocity">
+          <param name="min">-3.14</param>
+          <param name="max">3.14</param>
+        </command_interface>
+
+        <command_interface name="effort">
+          <param name="min">-200.0</param>
+          <param name="max">200.0</param>
+        </command_interface> -->
+
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="effort"/>
+
+        
+
+      </joint>
+
+    </ros2_control>
+
+  </xacro:macro>
+
+</robot>

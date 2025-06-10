@@ -1,0 +1,139 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 125
+    use_sime_time: true
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    ur5_controller:
+      type: ur5_controller/UR5Controller
+
+    position_controller:
+      type: position_controllers/JointGroupPositionController   
+
+    velocity_controller:
+      type: velocity_controllers/JointGroupVelocityController
+    
+    effort_controller:
+      type: effort_controllers/JointGroupEffortController
+    
+    joint_trajectory_controller:
+      type: "joint_trajectory_controller/JointTrajectoryController"
+
+
+joint_state_broadcaster:
+  ros__parameters:
+    joints:
+      - shoulder_pan_joint
+      - shoulder_lift_joint
+      - elbow_joint
+      - wrist_1_joint
+      - wrist_2_joint
+      - wrist_3_joint
+      - r_thumbCMC
+      - r_thumbMCP
+      - r_indexMCP
+      - r_middleMCP
+      - r_ringMCP
+      - r_littleMCP
+
+
+position_controller:
+  ros__parameters:
+    joints:
+      - r_thumbCMC
+      - r_thumbMCP
+      - r_indexMCP
+      - r_middleMCP
+      - r_ringMCP
+      - r_littleMCP
+    command_interfaces: [position]
+    state_interfaces: [position velocity]
+    command_topic: "/position_controller/commands"
+    use_sim_time: true
+
+
+velocity_controller:
+  ros__parameters:
+    joints:
+      - shoulder_pan_joint
+      - shoulder_lift_joint
+      - elbow_joint
+      - wrist_1_joint
+      - wrist_2_joint
+      - wrist_3_joint
+
+
+effort_controller:
+  ros__parameters:
+    joints:
+      - shoulder_pan_joint
+      - shoulder_lift_joint
+      - elbow_joint
+      - wrist_1_joint
+      - wrist_2_joint
+      - wrist_3_joint
+
+
+joint_trajectory_controller:
+  ros__parameters:
+    joints:
+      - r_thumbCMC
+      - r_thumbMCP
+      - r_indexMCP
+      - r_middleMCP
+      - r_ringMCP
+      - r_littleMCP
+      - r_indexPIP
+      - r_middlePIP
+      - r_ringPIP
+      - r_littlePIP
+    command_interfaces: [position]    # 必须与硬件接口匹配
+    state_interfaces: [position, velocity]
+    initial_positions: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ,0.0, 0.0, 0.0, 0.0]
+    state_publish_rate: 100.0
+    action_monitor_rate: 20.0
+    allow_partial_joints_goal: false
+    open_loop_control: false          # 关键！必须设为false才能用initial_positions
+    constraints:
+      stopped_velocity_tolerance: 0.01
+      goal_time: 0.5
+      trajectory: 0.1
+      goal: 0.05
+    gains:                            # 新增PID控制参数
+      r_thumbCMC: {p: 50.0, d: 1.0, i: 0.0, i_clamp: 0.0}
+      r_thumbMCP: {p: 50.0, d: 1.0, i: 0.0, i_clamp: 0.0}
+      r_indexMCP: {p: 50.0, d: 1.0, i: 0.0, i_clamp: 0.0}
+      r_middleMCP: {p: 50.0, d: 1.0, i: 0.0, i_clamp: 0.0}
+      r_ringMCP: {p: 50.0, d: 1.0, i: 0.0, i_clamp: 0.0}
+      r_littleMCP: {p: 50.0, d: 1.0, i: 0.0, i_clamp: 0.0}
+      r_indexPIP: {p: 50.0, d: 1.0, i: 0.0, i_clamp: 0.0}
+      r_middlePIP: {p: 50.0, d: 1.0, i: 0.0, i_clamp: 0.0}
+      r_ringPIP: {p: 50.0, d: 1.0, i: 0.0, i_clamp: 0.0}
+      r_littlePIP: {p: 50.0, d: 1.0, i: 0.0, i_clamp: 0.0}
+      
+      
+  
+ur5_controller:
+  ros__parameters:
+    update_rate: 125 #Hz
+    joints:
+      - shoulder_pan_joint
+      - shoulder_lift_joint
+      - elbow_joint
+      - wrist_1_joint
+      - wrist_2_joint
+      - wrist_3_joint
+    interface_name: position
+    command_interfaces: [position]
+    state_interfaces: [position velocity]
+    use_effort_interface: true
+    task_package_name: "ur5_interface"
+    task_file: "/config/ur5/task.info"
+    urdf_package_name: "ur5_description"
+    urdf_file: "/urdf/ur5.urdf"
+    lib_package_name: "ur5_bringup"
+    lib_folder: "/auto_generated"
+    use_chain_interface: false
+    # chain_velocity_interface_name: velocity_interface_controller

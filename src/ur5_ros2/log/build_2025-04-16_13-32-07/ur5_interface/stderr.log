@@ -1,0 +1,13 @@
+[01m[K/root/ocs2_ros2/ros_ws/src/ur5_ros2/ur5_interface/src/factory_functions.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kxacro/process_string.h: No such file or directory
+    9 | #include [01;31m[K<xacro/process_string.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ur5_interface.dir/build.make:174: CMakeFiles/ur5_interface.dir/src/factory_functions.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/root/ocs2_ros2/ros_ws/src/ur5_ros2/ur5_interface/include/ur5_interface/command/joy_target_trajectories.h:11[m[K,
+                 from [01m[K/root/ocs2_ros2/ros_ws/src/ur5_ros2/ur5_interface/src/command/joy_target_trajectories.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+   22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                                                                    [01;36m[K^[m[K
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ur5_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

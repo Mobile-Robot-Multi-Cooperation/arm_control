@@ -1,0 +1,11 @@
+[0.000000] (-) TimerEvent: {}
+[0.000144] (-) JobUnselected: {'identifier': 'arm_controller'}
+[0.000166] (-) JobUnselected: {'identifier': 'arm_interface'}
+[0.000182] (-) JobUnselected: {'identifier': 'moying_arm_bringup'}
+[0.000318] (-) JobUnselected: {'identifier': 'moying_arm_description'}
+[0.000345] (-) JobUnselected: {'identifier': 'moying_arm_hardware'}
+[0.000354] (-) JobUnselected: {'identifier': 'ur5_bringup'}
+[0.000360] (-) JobUnselected: {'identifier': 'ur5_controller'}
+[0.000366] (-) JobUnselected: {'identifier': 'ur5_description'}
+[0.000372] (-) JobUnselected: {'identifier': 'ur5_interface'}
+[0.000378] (-) EventReactorShutdown: {}

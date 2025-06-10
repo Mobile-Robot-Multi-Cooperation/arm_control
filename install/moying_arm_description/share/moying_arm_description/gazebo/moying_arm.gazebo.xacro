@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- arm -->
+  <xacro:include filename="$(find elfin_description)/gazebo/elfin.gazebo.xacro"/>
+
+  <xacro:macro name="moying_arm_gazebo" params="settings" >
+    <gazebo>
+        <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+          <robot_param>robot_description</robot_param>
+          <robot_param_node>robot_state_publisher</robot_param_node>
+          <!-- controller.yaml -->
+          <parameters>${settings}</parameters>
+        </plugin>
+    </gazebo>
+    <xacro:elfin_gazebo_link_setting  prefix="1"/>
+    <xacro:elfin_gazebo_link_setting  prefix="2"/>
+    <xacro:elfin_gazebo_link_setting  prefix="3"/>
+    <xacro:elfin_gazebo_link_setting  prefix="4"/>
+    <xacro:elfin_gazebo_link_setting  prefix="5"/>
+    <xacro:elfin_gazebo_link_setting  prefix="6"/>
+
+  </xacro:macro>
+</robot>

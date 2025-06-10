@@ -1,0 +1,9 @@
+In file included from [01m[K/home/wyd/arm_ws/src/moying_arm/moying_arm/moying_arm_hardware/include/moying_arm_hardware/arm_hardware_interface.hpp:30[m[K,
+                 from [01m[K/home/wyd/arm_ws/src/moying_arm/moying_arm/moying_arm_hardware/src/arm_hardware_interface.cpp:20[m[K:
+[01m[K/home/wyd/arm_ws/src/moying_arm/moying_arm/moying_arm_hardware/include/moying_arm_hardware/arm_ethercat_driver.hpp:13:10:[m[K [01;31m[Kfatal error: [m[Kelfin_ethercat_driver_plant/elfin_ethercat_manager.h: 没有那个文件或目录
+   13 | #include [01;31m[K"elfin_ethercat_driver_plant/elfin_ethercat_manager.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moying_arm_hardware.dir/build.make:76：CMakeFiles/moying_arm_hardware.dir/src/arm_hardware_interface.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/moying_arm_hardware.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

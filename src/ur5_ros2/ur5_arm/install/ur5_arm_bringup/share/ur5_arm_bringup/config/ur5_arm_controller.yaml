@@ -1,0 +1,113 @@
+/ur5/controller_manager:
+  ros__parameters:
+    update_rate: 1000 #Hz
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    velocity_trajectory_controller:
+      type: velocity_controllers/JointGroupVelocityController
+    arm_trajectory_controller:
+      type: ur5_arm_controller/UR5Controller
+    # velocity_interface_controller:
+    #   type: velocity_interface_controller/VelcittInterfaceController
+    # robotiq_controller:
+    #   type: robotiq_controllers/RobotiqActivationController
+/ur5/joint_state_broadcaster:
+  ros__parameters:
+    update_rate: 100 #HZ
+
+    
+# /ur5/robotiq_controller:
+#   ros__parameters:
+#     update_rate: 10 #Hz
+#     joy_topic_name: /mcr/joy
+#     joint_name: robotiq_85_left_knuckle_joint
+#     control_key: 2
+
+
+/ur5/velocity_trajectory_controller:
+  ros__parameters:
+    joints:
+      - velocity_interface_controller/shoulder_pan_joint
+      - velocity_interface_controller/shoulder_lift_joint	
+      - velocity_interface_controller/elbow_joint
+      - velocity_interface_controller/wrist_1_joint
+      - velocity_interface_controller/wrist_2_joint
+      - velocity_interface_controller/wrist_3_joint
+
+# /ur5/velocity_interface_controller:
+#   ros__parameters:
+#     update_rate: 1000 #Hz
+#     joints:
+#       - elfin_joint1
+#       - elfin_joint2
+#       - elfin_joint3
+#       - elfin_joint4
+#       - elfin_joint5
+#       - elfin_joint6
+#     interface_name: velocity
+#     use_dynamics_models: true 
+#     device_name: elfin5
+#     coulomb_scale: [0.3,0.5,0.5,0.75,0.65,0.50]
+#     ft_offset: [-80.4275,-80.064,159.80,0.651295,2.8036650,-0.6523625]
+#     gripper_mass: 1.6
+#     end_link_name: "Force_Torque_Sensor"
+#     urdf_package: "moying_mor_description"
+#     urdf_path: "/urdf/moying_mor_no_wheel.urdf"
+#     total_ft_init_count: 10000
+#     ft_joint: "robotiq_ft_sensor"
+#     elfin1:
+#       kp: 320.0
+#       kd: 0.0
+#       ki: 1400.0
+#       ki_max: 12.0
+#     elfin2:
+#       kp: 340.0
+#       kd: 0.0
+#       ki: 1500.0
+#       ki_max: 25.0
+#     elfin3:
+#       kp: 200.0
+#       kd: 0.0
+#       ki: 1000.0
+#       ki_max: 10.0
+#     elfin4:
+#       kp: 110.0
+#       kd: 0.0
+#       ki: 1000.0
+#       ki_max: 10.0
+#     elfin5:
+#       kp: 85.0
+#       kd: 0.0
+#       ki: 1000.0
+#       ki_max: 12.0
+#     elfin6:
+#       kp: 100.0
+#       kd: 0.0
+#       ki: 1000.0
+#       ki_max: 10.0
+    
+
+
+
+
+/ur5/arm_trajectory_controller:
+  ros__parameters:
+    update_rate: 100 #Hz
+    joints:
+      - shoulder_pan_joint
+      - shoulder_lift_joint
+      - elbow_joint
+      - wrist_1_joint
+      - wrist_2_joint	
+      - wrist_3_joint
+    interface_name: position
+    use_effort_interface: true
+    task_package_name: "ur5_arm_interface"
+    task_file: "/config/ur5/task.info"
+    urdf_package_name: "ur5_arm_description"
+    urdf_file: "/urdf/ur5_robot.urdf"
+    lib_package_name: "ur5_arm_bringup"
+    lib_folder: "/auto_generated"
+    use_chain_interface: false
+    # chain_velocity_interface_name: velocity_interface_controller

@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:macro name="moying_arm_transmissions">
+
+    <transmission name="joint_1_trans">
+        <plugin>transmission_interface/SimpleTransmission</plugin>
+        <actuator name="joint1_motor" role="joint1_motor" />
+        <joint name="elfin_joint1" role="elfin_joint1">
+            <mechanical_reduction>1.0</mechanical_reduction>
+        </joint>
+    </transmission>
+
+    <transmission name="joint_2_trans">
+        <plugin>transmission_interface/SimpleTransmission</plugin>
+        <actuator name="joint2_motor" role="joint2_motor" />
+        <joint name="elfin_joint2" role="elfin_joint2">
+            <mechanical_reduction>1.0</mechanical_reduction>
+        </joint>
+    </transmission>
+
+    <transmission name="joint_3_trans">
+        <plugin>transmission_interface/SimpleTransmission</plugin>
+        <actuator name="joint3_motor" role="joint3_motor" />
+        <joint name="elfin_joint3" role="elfin_joint3">
+            <mechanical_reduction>1.0</mechanical_reduction>
+        </joint>
+    </transmission>
+
+    <transmission name="joint_4_trans">
+        <plugin>transmission_interface/SimpleTransmission</plugin>
+        <actuator name="joint4_motor" role="joint4_motor" />
+        <joint name="elfin_joint4" role="elfin_joint4">
+            <mechanical_reduction>1.0</mechanical_reduction>
+        </joint>
+    </transmission>
+
+    <transmission name="joint_5_trans">
+        <plugin>transmission_interface/SimpleTransmission</plugin>
+        <actuator name="joint5_motor" role="joint5_motor" />
+        <joint name="elfin_joint5" role="elfin_joint5">
+            <mechanical_reduction>1.0</mechanical_reduction>
+        </joint>
+    </transmission>
+
+    <transmission name="joint_6_trans">
+        <plugin>transmission_interface/SimpleTransmission</plugin>
+        <actuator name="joint6_motor" role="joint6_motor" />
+        <joint name="elfin_joint6" role="elfin_joint6">
+            <mechanical_reduction>1.0</mechanical_reduction>
+        </joint>
+    </transmission>
+
+    <!-- <transmission name="r_thumbCMC_trans">
+        <plugin>transmission_interface/SimpleTransmission</plugin>
+        <actuator name="r_thumbCMC_motor" role="r_thumbCMC_motor" />
+        <joint name="r_thumbCMC" role="r_thumbCMC">
+            <mechanical_reduction>1.0</mechanical_reduction>
+        </joint>
+    </transmission>
+
+    <transmission name="r_thumbMCP_trans">
+        <plugin>transmission_interface/SimpleTransmission</plugin>
+        <actuator name="r_thumbMCP_motor" role="r_thumbMCP_motor" />
+        <joint name="r_thumbMCP" role="r_thumbMCP">
+            <mechanical_reduction>1.0</mechanical_reduction>
+        </joint>
+    </transmission>
+
+    <transmission name="r_indexMCP_trans">
+        <plugin>transmission_interface/SimpleTransmission</plugin>
+        <actuator name="r_indexMCP_motor" role="r_indexMCP_motor" />
+        <joint name="r_indexMCP" role="r_indexMCP">
+            <mechanical_reduction>1.0</mechanical_reduction>
+        </joint>
+    </transmission>
+
+    <transmission name="r_middleMCP_trans">
+        <plugin>transmission_interface/SimpleTransmission</plugin>
+        <actuator name="r_middleMCP_motor" role="r_middleMCP_motor" />
+        <joint name="r_middleMCP" role="r_middleMCP">
+            <mechanical_reduction>1.0</mechanical_reduction>
+        </joint>
+    </transmission>
+
+    <transmission name="r_ringMCP_trans">
+        <plugin>transmission_interface/SimpleTransmission</plugin>
+        <actuator name="r_ringMCP_motor" role="r_ringMCP_motor" />
+        <joint name="r_ringMCP" role="r_ringMCP">
+            <mechanical_reduction>1.0</mechanical_reduction>
+        </joint>
+    </transmission>
+
+    <transmission name="r_littleMCP_trans">
+        <plugin>transmission_interface/SimpleTransmission</plugin>
+        <actuator name="r_littleMCP_motor" role="r_littleMCP_motor" />
+        <joint name="r_littleMCP" role="r_littleMCP">
+            <mechanical_reduction>1.0</mechanical_reduction>
+        </joint>
+    </transmission> -->
+
+
+
+  </xacro:macro>
+
+</robot>

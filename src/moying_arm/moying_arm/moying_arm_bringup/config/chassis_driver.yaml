@@ -1,0 +1,26 @@
+if_name: enx207bd271f5f2
+joint_num: 4
+forward_right_wheel:
+  name: forward_right_wheel_joint
+  slave_no:  1
+  direction: 1.0
+  reduction_ratio: 21.0
+  encoder_resolution: 10000
+forward_left_wheel:
+  name: forward_left_wheel_joint
+  slave_no: 2
+  direction: -1.0
+  reduction_ratio: 21.0
+  encoder_resolution: 10000
+back_right_wheel:
+  name: back_right_wheel_joint
+  slave_no: 3
+  direction: 1.0
+  reduction_ratio: 21.0
+  encoder_resolution: 10000
+back_left_wheel:
+  name: back_left_wheel_joint
+  slave_no: 4
+  direction: -1.0
+  reduction_ratio: 21.0
+  encoder_resolution: 10000

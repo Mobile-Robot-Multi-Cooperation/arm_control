@@ -1,0 +1,19 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 10 #Hz
+
+    test_arm_controller:
+      type: velocity_controllers/JointGroupVelocityController
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+test_arm_controller:
+  ros__parameters:
+    joints:
+      - elfin_joint1
+      - elfin_joint2
+      - elfin_joint3
+      - elfin_joint4
+      - elfin_joint5
+      - elfin_joint6
+

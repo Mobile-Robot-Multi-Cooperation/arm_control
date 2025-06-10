@@ -1,0 +1,9 @@
+[ 11%] [32mBuilding CXX object CMakeFiles/ur5_interface.dir/src/factory_functions.cpp.o[0m
+[01m[K/root/ocs2_ros2/ros_ws/src/ur5_ros2/ur5_interface/src/factory_functions.cpp:[m[K In function ‘[01m[Kocs2::PinocchioInterface ur5_interface::createPinocchioInterface(const string&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/root/ocs2_ros2/ros_ws/src/ur5_ros2/ur5_interface/src/factory_functions.cpp:21:40:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand type is ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’})
+   21 |   std::cerr << "Found joint name: " << [01;31m[K*robotUrdfPath[m[K << std::endl;
+      |                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+compilation terminated due to -Wfatal-errors.
+gmake[2]: *** [CMakeFiles/ur5_interface.dir/build.make:174: CMakeFiles/ur5_interface.dir/src/factory_functions.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ur5_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

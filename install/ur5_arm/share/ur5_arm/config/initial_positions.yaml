@@ -1,0 +1,19 @@
+# Default initial positions for ur's ros2_control fake system
+
+
+  elbow_joint: 0
+  shoulder_lift_joint: -1.57
+  shoulder_pan_joint: 0
+  wrist_1_joint: -1.57
+  wrist_2_joint: 0
+  wrist_3_joint: 0
+  r_indexMCP: 0
+  r_indexPIP: 0
+  r_littleMCP: 0
+  r_littlePIP: 0
+  r_middleMCP: 0
+  r_middlePIP: 0
+  r_ringMCP: 0
+  r_ringPIP: 0
+  r_thumbCMC: 0
+  r_thumbMCP: 0

@@ -1,0 +1,9 @@
+[ 30%] [32mBuilding CXX object CMakeFiles/arm_interface.dir/src/factory_functions.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/arm_interface.dir/src/arm_precomputation.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/arm_interface.dir/src/arm_pinocchio_mapping.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/arm_interface.dir/src/dynamics/arm_dynamics.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/arm_interface.dir/src/command/joy_target_trajectories.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/arm_interface.dir/src/arm_interface.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/arm_interface.dir/src/constraint/end_effort_constraint.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/arm_interface.dir/src/command/arm_target_trajectories_interactive_marker.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/arm_interface.dir/src/constraint/base_constraint.cpp.o[0m

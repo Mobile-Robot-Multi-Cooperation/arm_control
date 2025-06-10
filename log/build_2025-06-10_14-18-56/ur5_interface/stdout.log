@@ -1,0 +1,10 @@
+[ 11%] [32mBuilding CXX object CMakeFiles/ur5_interface.dir/src/ur5_interface.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/ur5_interface.dir/src/dynamics/ur5_dynamics.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/ur5_interface.dir/src/factory_functions.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/ur5_interface.dir/src/constraint/end_effort_constraint.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/ur5_interface.dir/src/constraint/base_constraint.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/ur5_interface.dir/src/command/joy_target_trajectories.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/ur5_interface.dir/src/ur5_pinocchio_mapping.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/ur5_interface.dir/src/ur5_precomputation.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libur5_interface.so[0m
+[100%] Built target ur5_interface

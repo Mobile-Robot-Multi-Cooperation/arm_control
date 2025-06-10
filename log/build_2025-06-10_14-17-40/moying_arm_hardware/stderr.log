@@ -1,0 +1,19 @@
+[31mCMake Error at CMakeLists.txt:14 (find_package):
+  By not providing "Findbaichuan_arm_dynamics_models.cmake" in
+  CMAKE_MODULE_PATH this project has asked CMake to find a package
+  configuration file provided by "baichuan_arm_dynamics_models", but CMake
+  did not find one.
+
+  Could not find a package configuration file provided by
+  "baichuan_arm_dynamics_models" with any of the following names:
+
+    baichuan_arm_dynamics_modelsConfig.cmake
+    baichuan_arm_dynamics_models-config.cmake
+
+  Add the installation prefix of "baichuan_arm_dynamics_models" to
+  CMAKE_PREFIX_PATH or set "baichuan_arm_dynamics_models_DIR" to a directory
+  containing one of the above files.  If "baichuan_arm_dynamics_models"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+[0m
